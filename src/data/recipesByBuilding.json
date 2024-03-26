@@ -1,0 +1,2367 @@
+{
+  "Field Kitchen": [
+    {
+      "Building": "Field Kitchen",
+      "Efficiency": "02:06",
+      "Product": {
+        "Biscuits": 10
+      },
+      "Ingredient_1": {
+        "Flour": 10
+      },
+      "Ingredient_2": {
+        "Herbs": 4,
+        "Berries": 4,
+        "Roots": 4
+      }
+    },
+    {
+      "Building": "Field Kitchen",
+      "Efficiency": "02:06",
+      "Product": {
+        "Jerky": 10
+      },
+      "Ingredient_1": {
+        "Insects": 8,
+        "Meat": 8
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    },
+    {
+      "Building": "Field Kitchen",
+      "Efficiency": "02:06",
+      "Product": {
+        "Pickled Goods": 10
+      },
+      "Ingredient_1": {
+        "Vegetables": 7,
+        "Mushrooms": 7,
+        "Roots": 7,
+        "Berries": 7,
+        "Eggs": 7
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Field Kitchen",
+      "Efficiency": "02:48",
+      "Product": {
+        "Porridge": 10
+      },
+      "Ingredient_1": {
+        "Grain": 8,
+        "Vegetables": 8,
+        "Mushrooms": 8,
+        "Herbs": 8
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 10,
+        "Clearance Water": 12,
+        "Storm Water": 14
+      }
+    }
+  ],
+  "Smelter": [
+    {
+      "Building": "Smelter",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Biscuits": 10
+      },
+      "Ingredient_1": {
+        "Flour": 8
+      },
+      "Ingredient_2": {
+        "Herbs": 4,
+        "Berries": 4,
+        "Roots": 4
+      }
+    },
+    {
+      "Building": "Smelter",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Training Gear": 10
+      },
+      "Ingredient_1": {
+        "Stone": 5,
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      },
+      "Ingredient_2": {
+        "Planks": 3,
+        "Reed": 3
+      }
+    },
+    {
+      "Building": "Smelter",
+      "Efficiency": "★★★00:28",
+      "Product": {
+        "Copper Bar": 2
+      },
+      "Ingredient_1": {
+        "Copper Ore": 4
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    }
+  ],
+  "Apothecary": [
+    {
+      "Building": "Apothecary",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Biscuits": 10
+      },
+      "Ingredient_1": {
+        "Flour": 8
+      },
+      "Ingredient_2": {
+        "Herbs": 3,
+        "Berries": 3,
+        "Roots": 3
+      }
+    },
+    {
+      "Building": "Apothecary",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Incense": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 5,
+        "Roots": 5,
+        "Insects": 5,
+        "Resin": 7
+      },
+      "Ingredient_2": {
+        "Wood": 6,
+        "Oil": 3,
+        "Coal": 2,
+        "Sea Marrow": 2
+      }
+    },
+    {
+      "Building": "Apothecary",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Tea": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 3,
+        "Pigment": 3,
+        "Resin": 3,
+        "Mushrooms": 3,
+        "Roots": 3
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 3,
+        "Clearance Water": 4,
+        "Storm Water": 5
+      },
+      "Ingredient_3": {
+        "Crystalized Dew": 2,
+        "Copper Bar": 2
+      }
+    }
+  ],
+  "Bakery": [
+    {
+      "Building": "Bakery",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Biscuits": 10
+      },
+      "Ingredient_1": {
+        "Flour": 8
+      },
+      "Ingredient_2": {
+        "Herbs": 3,
+        "Berries": 3,
+        "Roots": 3
+      }
+    },
+    {
+      "Building": "Bakery",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Pie": 10
+      },
+      "Ingredient_1": {
+        "Flour": 6
+      },
+      "Ingredient_2": {
+        "Herbs": 4,
+        "Meat": 4,
+        "Insects": 4,
+        "Eggs": 4,
+        "Berries": 4
+      }
+    },
+    {
+      "Building": "Bakery",
+      "Efficiency": "★★01:24",
+      "Product": {
+        "Pottery": 5
+      },
+      "Ingredient_1": {
+        "Clay": 3
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    }
+  ],
+  "Cookhouse": [
+    {
+      "Building": "Cookhouse",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Biscuits": 10
+      },
+      "Ingredient_1": {
+        "Flour": 8
+      },
+      "Ingredient_2": {
+        "Herbs": 3,
+        "Berries": 3,
+        "Roots": 3
+      }
+    },
+    {
+      "Building": "Cookhouse",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Skewers": 10
+      },
+      "Ingredient_1": {
+        "Insects": 4,
+        "Meat": 4,
+        "Mushrooms": 4,
+        "Jerky": 3
+      },
+      "Ingredient_2": {
+        "Vegetables": 4,
+        "Roots": 4,
+        "Berries": 4,
+        "Eggs": 4
+      }
+    },
+    {
+      "Building": "Cookhouse",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Pigment": 10
+      },
+      "Ingredient_1": {
+        "Insects": 4,
+        "Berries": 4,
+        "Copper Ore": 4,
+        "Coal": 3
+      }
+    }
+  ],
+  "Flawless Smelter": [
+    {
+      "Building": "Flawless Smelter",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Biscuits": 10
+      },
+      "Ingredient_1": {
+        "Flour": 8
+      },
+      "Ingredient_2": {
+        "Herbs": 2,
+        "Berries": 2,
+        "Roots": 2
+      }
+    },
+    {
+      "Building": "Flawless Smelter",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Training Gear": 10
+      },
+      "Ingredient_1": {
+        "Stone": 3,
+        "Copper Bar": 1,
+        "Crystalized Dew": 1
+      },
+      "Ingredient_2": {
+        "Planks": 2,
+        "Reed": 2
+      }
+    },
+    {
+      "Building": "Flawless Smelter",
+      "Efficiency": "★★★00:28",
+      "Product": {
+        "Copper Bar": 2
+      },
+      "Ingredient_1": {
+        "Copper Ore": 4
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    }
+  ],
+  "Cellar": [
+    {
+      "Building": "Cellar",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Jerky": 10
+      },
+      "Ingredient_1": {
+        "Insects": 6,
+        "Meat": 6
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    },
+    {
+      "Building": "Cellar",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Pickled Goods": 10
+      },
+      "Ingredient_1": {
+        "Vegetables": 6,
+        "Mushrooms": 6,
+        "Roots": 6,
+        "Berries": 6,
+        "Eggs": 6
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Cellar",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Wine": 10
+      },
+      "Ingredient_1": {
+        "Berries": 2,
+        "Mushrooms": 2,
+        "Reed": 2
+      },
+      "Ingredient_2": {
+        "Pottery": 2,
+        "Barrels": 2,
+        "Waterskins": 2
+      }
+    }
+  ],
+  "Kiln": [
+    {
+      "Building": "Kiln",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Jerky": 10
+      },
+      "Ingredient_1": {
+        "Insects": 6,
+        "Meat": 6
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    },
+    {
+      "Building": "Kiln",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Bricks": 2
+      },
+      "Ingredient_1": {
+        "Clay": 4,
+        "Stone": 4
+      }
+    },
+    {
+      "Building": "Kiln",
+      "Efficiency": "★★★01:24",
+      "Product": {
+        "Coal": 5
+      },
+      "Ingredient_1": {
+        "Wood": 10
+      }
+    }
+  ],
+  "Butcher": [
+    {
+      "Building": "Butcher",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Jerky": 10
+      },
+      "Ingredient_1": {
+        "Insects": 5,
+        "Meat": 5
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    },
+    {
+      "Building": "Butcher",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Skewers": 10
+      },
+      "Ingredient_1": {
+        "Insects": 4,
+        "Meat": 4,
+        "Mushrooms": 4,
+        "Jerky": 3
+      },
+      "Ingredient_2": {
+        "Vegetables": 4,
+        "Roots": 4,
+        "Berries": 4,
+        "Eggs": 4
+      }
+    },
+    {
+      "Building": "Butcher",
+      "Efficiency": "★★01:24",
+      "Product": {
+        "Oil": 5
+      },
+      "Ingredient_1": {
+        "Grain": 3,
+        "Meat": 3,
+        "Vegetables": 3,
+        "Plant Fiber": 3
+      }
+    }
+  ],
+  "Flawless Cellar": [
+    {
+      "Building": "Flawless Cellar",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Jerky": 10
+      },
+      "Ingredient_1": {
+        "Insects": 4,
+        "Meat": 4
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    },
+    {
+      "Building": "Flawless Cellar",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Pickled Goods": 10
+      },
+      "Ingredient_1": {
+        "Vegetables": 4,
+        "Mushrooms": 4,
+        "Roots": 4,
+        "Berries": 4,
+        "Eggs": 4
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 2
+      }
+    },
+    {
+      "Building": "Flawless Cellar",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Wine": 10
+      },
+      "Ingredient_1": {
+        "Berries": 2,
+        "Mushrooms": 2,
+        "Reed": 2
+      },
+      "Ingredient_2": {
+        "Pottery": 2,
+        "Barrels": 2,
+        "Waterskins": 2
+      }
+    }
+  ],
+  "Smokehouse": [
+    {
+      "Building": "Smokehouse",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Jerky": 10
+      },
+      "Ingredient_1": {
+        "Insects": 4,
+        "Meat": 4
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    },
+    {
+      "Building": "Smokehouse",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Incense": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 6,
+        "Roots": 6,
+        "Insects": 6,
+        "Resin": 8
+      },
+      "Ingredient_2": {
+        "Wood": 6,
+        "Oil": 3,
+        "Coal": 2,
+        "Sea Marrow": 2
+      }
+    },
+    {
+      "Building": "Smokehouse",
+      "Efficiency": "★01:24",
+      "Product": {
+        "Pottery": 5
+      },
+      "Ingredient_1": {
+        "Clay": 4
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    }
+  ],
+  "Beanery": [
+    {
+      "Building": "Beanery",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Pickled Goods": 10
+      },
+      "Ingredient_1": {
+        "Vegetables": 6,
+        "Mushrooms": 6,
+        "Roots": 6,
+        "Berries": 6,
+        "Eggs": 6
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Beanery",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Porridge": 10
+      },
+      "Ingredient_1": {
+        "Grain": 4,
+        "Vegetables": 4,
+        "Mushrooms": 4,
+        "Herbs": 4
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 6,
+        "Clearance Water": 8,
+        "Storm Water": 10
+      }
+    },
+    {
+      "Building": "Beanery",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Crystalized Dew": 2
+      },
+      "Ingredient_1": {
+        "Herbs": 3,
+        "Insects": 3,
+        "Resin": 3,
+        "Vegetables": 3
+      },
+      "Ingredient_2": {
+        "Stone": 4,
+        "Clay": 4
+      },
+      "Ingredient_3": {
+        "Storm Water": 10,
+        "Clearance Water": 14,
+        "Drizzle Water": 18
+      }
+    }
+  ],
+  "Brewery": [
+    {
+      "Building": "Brewery",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Pickled Goods": 10
+      },
+      "Ingredient_1": {
+        "Vegetables": 6,
+        "Mushrooms": 6,
+        "Roots": 6,
+        "Berries": 6,
+        "Eggs": 6
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Brewery",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Ale": 10
+      },
+      "Ingredient_1": {
+        "Grain": 4,
+        "Roots": 4
+      },
+      "Ingredient_2": {
+        "Pottery": 2,
+        "Barrels": 1,
+        "Waterskins": 2
+      }
+    },
+    {
+      "Building": "Brewery",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Pack of Crops": 2
+      },
+      "Ingredient_1": {
+        "Roots": 5,
+        "Grain": 5,
+        "Vegetables": 5,
+        "Mushrooms": 5
+      }
+    }
+  ],
+  "Granary": [
+    {
+      "Building": "Granary",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Pickled Goods": 10
+      },
+      "Ingredient_1": {
+        "Vegetables": 5,
+        "Mushrooms": 5,
+        "Roots": 5,
+        "Berries": 5,
+        "Eggs": 5
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 2
+      }
+    },
+    {
+      "Building": "Granary",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Fabric": 2
+      },
+      "Ingredient_1": {
+        "Plant Fiber": 3,
+        "Reed": 3,
+        "Leather": 3
+      }
+    },
+    {
+      "Building": "Granary",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Pack of Crops": 2
+      },
+      "Ingredient_1": {
+        "Roots": 4,
+        "Grain": 4,
+        "Vegetables": 4,
+        "Mushrooms": 4
+      }
+    }
+  ],
+  "Flawless Brewery": [
+    {
+      "Building": "Flawless Brewery",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Pickled Goods": 15
+      },
+      "Ingredient_1": {
+        "Vegetables": 4,
+        "Mushrooms": 4,
+        "Roots": 4,
+        "Berries": 4,
+        "Eggs": 4
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 2
+      }
+    },
+    {
+      "Building": "Flawless Brewery",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Ale": 15
+      },
+      "Ingredient_1": {
+        "Grain": 4,
+        "Roots": 4
+      },
+      "Ingredient_2": {
+        "Pottery": 2,
+        "Barrels": 1,
+        "Waterskins": 2
+      }
+    },
+    {
+      "Building": "Flawless Brewery",
+      "Efficiency": "★★★00:28",
+      "Product": {
+        "Pack of Crops": 5
+      },
+      "Ingredient_1": {
+        "Roots": 3,
+        "Grain": 3,
+        "Vegetables": 3,
+        "Mushrooms": 3
+      }
+    }
+  ],
+  "Furnace": [
+    {
+      "Building": "Furnace",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Pie": 10
+      },
+      "Ingredient_1": {
+        "Flour": 6
+      },
+      "Ingredient_2": {
+        "Herbs": 4,
+        "Meat": 4,
+        "Insects": 4,
+        "Eggs": 4,
+        "Berries": 4
+      }
+    },
+    {
+      "Building": "Furnace",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Bricks": 2
+      },
+      "Ingredient_1": {
+        "Clay": 3,
+        "Stone": 3
+      }
+    },
+    {
+      "Building": "Furnace",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Copper Bar": 2
+      },
+      "Ingredient_1": {
+        "Copper Ore": 5
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    }
+  ],
+  "Brick Oven": [
+    {
+      "Building": "Brick Oven",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Pie": 10
+      },
+      "Ingredient_1": {
+        "Flour": 6
+      },
+      "Ingredient_2": {
+        "Herbs": 3,
+        "Meat": 3,
+        "Insects": 3,
+        "Eggs": 3,
+        "Berries": 3
+      }
+    },
+    {
+      "Building": "Brick Oven",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Incense": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 6,
+        "Roots": 6,
+        "Insects": 6,
+        "Resin": 8
+      },
+      "Ingredient_2": {
+        "Wood": 6,
+        "Oil": 3,
+        "Coal": 2,
+        "Sea Marrow": 2
+      }
+    },
+    {
+      "Building": "Brick Oven",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Coal": 3
+      },
+      "Ingredient_1": {
+        "Wood": 15
+      }
+    }
+  ],
+  "Distillery": [
+    {
+      "Building": "Distillery",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Porridge": 10
+      },
+      "Ingredient_1": {
+        "Grain": 5,
+        "Vegetables": 5,
+        "Mushrooms": 5,
+        "Herbs": 5
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 7,
+        "Clearance Water": 9,
+        "Storm Water": 11
+      }
+    },
+    {
+      "Building": "Distillery",
+      "Efficiency": "★★01:24",
+      "Product": {
+        "Wine": 10
+      },
+      "Ingredient_1": {
+        "Berries": 3,
+        "Mushrooms": 3,
+        "Reed": 3
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Distillery",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Barrels": 10
+      },
+      "Ingredient_1": {
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      },
+      "Ingredient_2": {
+        "Planks": 2
+      }
+    }
+  ],
+  "Teahouse": [
+    {
+      "Building": "Teahouse",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Porridge": 10
+      },
+      "Ingredient_1": {
+        "Grain": 5,
+        "Vegetables": 5,
+        "Mushrooms": 5,
+        "Herbs": 5
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 7,
+        "Clearance Water": 9,
+        "Storm Water": 11
+      }
+    },
+    {
+      "Building": "Teahouse",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Tea": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 2,
+        "Pigment": 2,
+        "Resin": 2,
+        "Mushrooms": 2,
+        "Roots": 2
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 2,
+        "Clearance Water": 3,
+        "Storm Water": 4
+      },
+      "Ingredient_3": {
+        "Crystalized Dew": 1,
+        "Copper Bar": 1
+      }
+    },
+    {
+      "Building": "Teahouse",
+      "Efficiency": "★01:24",
+      "Product": {
+        "Waterskins": 10
+      },
+      "Ingredient_1": {
+        "Leather": 6
+      },
+      "Ingredient_2": {
+        "Oil": 4,
+        "Meat": 4
+      }
+    }
+  ],
+  "Grill": [
+    {
+      "Building": "Grill",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Skewers": 10
+      },
+      "Ingredient_1": {
+        "Insects": 3,
+        "Meat": 3,
+        "Mushrooms": 3,
+        "Jerky": 2
+      },
+      "Ingredient_2": {
+        "Vegetables": 3,
+        "Roots": 3,
+        "Berries": 3,
+        "Eggs": 3
+      }
+    },
+    {
+      "Building": "Grill",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Ale": 10
+      },
+      "Ingredient_1": {
+        "Grain": 6,
+        "Roots": 6
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 2,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Grill",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Copper Bar": 2
+      },
+      "Ingredient_1": {
+        "Copper Ore": 6
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    }
+  ],
+  "Crude Workstation": [
+    {
+      "Building": "Crude Workstation",
+      "Efficiency": "00:56",
+      "Product": {
+        "Bricks": 2
+      },
+      "Ingredient_1": {
+        "Clay": 6,
+        "Stone": 6
+      }
+    },
+    {
+      "Building": "Crude Workstation",
+      "Efficiency": "00:56",
+      "Product": {
+        "Fabric": 2
+      },
+      "Ingredient_1": {
+        "Plant Fiber": 6,
+        "Reed": 6,
+        "Leather": 6
+      }
+    },
+    {
+      "Building": "Crude Workstation",
+      "Efficiency": "01:00",
+      "Product": {
+        "Pipes": 2
+      },
+      "Ingredient_1": {
+        "Copper Bar": 3,
+        "Crystalized Dew": 3
+      }
+    },
+    {
+      "Building": "Crude Workstation",
+      "Efficiency": "00:56",
+      "Product": {
+        "Planks": 2
+      },
+      "Ingredient_1": {
+        "Wood": 8
+      }
+    }
+  ],
+  "Workshop": [
+    {
+      "Building": "Workshop",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Bricks": 2
+      },
+      "Ingredient_1": {
+        "Clay": 3,
+        "Stone": 3
+      }
+    },
+    {
+      "Building": "Workshop",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Fabric": 2
+      },
+      "Ingredient_1": {
+        "Plant Fiber": 3,
+        "Reed": 3,
+        "Leather": 3
+      }
+    },
+    {
+      "Building": "Workshop",
+      "Efficiency": "01:00",
+      "Product": {
+        "Pipes": 2
+      },
+      "Ingredient_1": {
+        "Copper Bar": 3,
+        "Crystalized Dew": 3
+      }
+    },
+    {
+      "Building": "Workshop",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Planks": 2
+      },
+      "Ingredient_1": {
+        "Wood": 5
+      }
+    }
+  ],
+  "Brickyard": [
+    {
+      "Building": "Brickyard",
+      "Efficiency": "★★★00:28",
+      "Product": {
+        "Bricks": 2
+      },
+      "Ingredient_1": {
+        "Clay": 2,
+        "Stone": 2
+      }
+    },
+    {
+      "Building": "Brickyard",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Crystalized Dew": 2
+      },
+      "Ingredient_1": {
+        "Herbs": 3,
+        "Insects": 3,
+        "Resin": 3,
+        "Vegetables": 3
+      },
+      "Ingredient_2": {
+        "Stone": 4,
+        "Clay": 4
+      },
+      "Ingredient_3": {
+        "Storm Water": 10,
+        "Clearance Water": 14,
+        "Drizzle Water": 18
+      }
+    },
+    {
+      "Building": "Brickyard",
+      "Efficiency": "★★01:24",
+      "Product": {
+        "Pottery": 5
+      },
+      "Ingredient_1": {
+        "Clay": 3
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    }
+  ],
+  "Leatherworker": [
+    {
+      "Building": "Leatherworker",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Fabric": 2
+      },
+      "Ingredient_1": {
+        "Plant Fiber": 3,
+        "Reed": 3,
+        "Leather": 3
+      }
+    },
+    {
+      "Building": "Leatherworker",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Pigment": 10
+      },
+      "Ingredient_1": {
+        "Insects": 4,
+        "Berries": 4,
+        "Copper Ore": 4,
+        "Coal": 3
+      }
+    },
+    {
+      "Building": "Leatherworker",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Waterskins": 10
+      },
+      "Ingredient_1": {
+        "Leather": 4
+      },
+      "Ingredient_2": {
+        "Oil": 2,
+        "Meat": 2
+      }
+    }
+  ],
+  "Flawless Leatherworker": [
+    {
+      "Building": "Flawless Leatherworker",
+      "Efficiency": "★★★00:28",
+      "Product": {
+        "Fabric": 2
+      },
+      "Ingredient_1": {
+        "Plant Fiber": 2,
+        "Reed": 2,
+        "Leather": 2
+      }
+    },
+    {
+      "Building": "Flawless Leatherworker",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Pigment": 10
+      },
+      "Ingredient_1": {
+        "Insects": 3,
+        "Berries": 3,
+        "Copper Ore": 3,
+        "Coal": 2
+      }
+    },
+    {
+      "Building": "Flawless Leatherworker",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Waterskins": 10
+      },
+      "Ingredient_1": {
+        "Leather": 4
+      },
+      "Ingredient_2": {
+        "Oil": 2,
+        "Meat": 2
+      }
+    }
+  ],
+  "Weaver": [
+    {
+      "Building": "Weaver",
+      "Efficiency": "★★★00:28",
+      "Product": {
+        "Fabric": 2
+      },
+      "Ingredient_1": {
+        "Plant Fiber": 2,
+        "Reed": 2,
+        "Leather": 2
+      }
+    },
+    {
+      "Building": "Weaver",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Training Gear": 10
+      },
+      "Ingredient_1": {
+        "Stone": 8,
+        "Copper Bar": 3,
+        "Crystalized Dew": 3
+      },
+      "Ingredient_2": {
+        "Planks": 3,
+        "Reed": 3
+      }
+    },
+    {
+      "Building": "Weaver",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Pack of Trade Goods": 2
+      },
+      "Ingredient_1": {
+        "Pigment": 8,
+        "Oil": 8,
+        "Flour": 6,
+        "Pottery": 6,
+        "Barrels": 6,
+        "Waterskins": 6
+      }
+    }
+  ],
+  "Smithy": [
+    {
+      "Building": "Smithy",
+      "Efficiency": "★★01:00",
+      "Product": {
+        "Pipes": 3
+      },
+      "Ingredient_1": {
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      }
+    },
+    {
+      "Building": "Smithy",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Pack of Trade Goods": 2
+      },
+      "Ingredient_1": {
+        "Pigment": 6,
+        "Oil": 6,
+        "Flour": 4,
+        "Pottery": 4,
+        "Barrels": 4,
+        "Waterskins": 4
+      }
+    },
+    {
+      "Building": "Smithy",
+      "Efficiency": "★★01:15",
+      "Product": {
+        "Tools": 2
+      },
+      "Ingredient_1": {
+        "Wood": 8,
+        "Planks": 2
+      },
+      "Ingredient_2": {
+        "Copper Bar": 3,
+        "Crystalized Dew": 3
+      }
+    }
+  ],
+  "Toolshop": [
+    {
+      "Building": "Toolshop",
+      "Efficiency": "★★01:00",
+      "Product": {
+        "Pipes": 3
+      },
+      "Ingredient_1": {
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      }
+    },
+    {
+      "Building": "Toolshop",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Barrels": 10
+      },
+      "Ingredient_1": {
+        "Copper Bar": 3,
+        "Crystalized Dew": 3
+      },
+      "Ingredient_2": {
+        "Planks": 2
+      }
+    },
+    {
+      "Building": "Toolshop",
+      "Efficiency": "★★★01:00",
+      "Product": {
+        "Tools": 2
+      },
+      "Ingredient_1": {
+        "Wood": 6,
+        "Planks": 1
+      },
+      "Ingredient_2": {
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      }
+    }
+  ],
+  "Carpenter": [
+    {
+      "Building": "Carpenter",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Planks": 2
+      },
+      "Ingredient_1": {
+        "Wood": 5
+      }
+    },
+    {
+      "Building": "Carpenter",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Pack of Luxury Goods": 2
+      },
+      "Ingredient_1": {
+        "Wine": 4,
+        "Training Gear": 4,
+        "Incense": 4,
+        "Scrolls": 4,
+        "Ale": 4,
+        "Tea": 4
+      }
+    },
+    {
+      "Building": "Carpenter",
+      "Efficiency": "★★01:15",
+      "Product": {
+        "Tools": 2
+      },
+      "Ingredient_1": {
+        "Wood": 8,
+        "Planks": 2
+      },
+      "Ingredient_2": {
+        "Copper Bar": 3,
+        "Crystalized Dew": 3
+      }
+    }
+  ],
+  "Supplier": [
+    {
+      "Building": "Supplier",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Planks": 2
+      },
+      "Ingredient_1": {
+        "Wood": 5
+      }
+    },
+    {
+      "Building": "Supplier",
+      "Efficiency": "★★01:03",
+      "Product": {
+        "Flour": 10
+      },
+      "Ingredient_1": {
+        "Grain": 7,
+        "Mushrooms": 7,
+        "Roots": 7
+      }
+    },
+    {
+      "Building": "Supplier",
+      "Efficiency": "★★01:24",
+      "Product": {
+        "Waterskins": 10
+      },
+      "Ingredient_1": {
+        "Leather": 5
+      },
+      "Ingredient_2": {
+        "Oil": 3,
+        "Meat": 3
+      }
+    }
+  ],
+  "Lumber Mill": [
+    {
+      "Building": "Lumber Mill",
+      "Efficiency": "★★★00:28",
+      "Product": {
+        "Planks": 2
+      },
+      "Ingredient_1": {
+        "Wood": 3
+      }
+    },
+    {
+      "Building": "Lumber Mill",
+      "Efficiency": "★01:24",
+      "Product": {
+        "Scrolls": 8
+      },
+      "Ingredient_1": {
+        "Leather": 4,
+        "Plant Fiber": 4,
+        "Wood": 10
+      },
+      "Ingredient_2": {
+        "Pigment": 3,
+        "Wine": 3
+      }
+    },
+    {
+      "Building": "Lumber Mill",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Pack of Trade Goods": 2
+      },
+      "Ingredient_1": {
+        "Pigment": 8,
+        "Oil": 8,
+        "Flour": 6,
+        "Pottery": 6,
+        "Barrels": 6,
+        "Waterskins": 6
+      }
+    }
+  ],
+  "Druid's Hut": [
+    {
+      "Building": "Druid's Hut",
+      "Efficiency": "★02:48",
+      "Product": {
+        "Coats": 10
+      },
+      "Ingredient_1": {
+        "Fabric": 3
+      }
+    },
+    {
+      "Building": "Druid's Hut",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Incense": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 6,
+        "Roots": 6,
+        "Insects": 6,
+        "Resin": 8
+      },
+      "Ingredient_2": {
+        "Wood": 6,
+        "Oil": 3,
+        "Coal": 2,
+        "Sea Marrow": 2
+      }
+    },
+    {
+      "Building": "Druid's Hut",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Oil": 5
+      },
+      "Ingredient_1": {
+        "Grain": 2,
+        "Meat": 2,
+        "Vegetables": 2,
+        "Plant Fiber": 2
+      }
+    }
+  ],
+  "Artisan": [
+    {
+      "Building": "Artisan",
+      "Efficiency": "★★02:48",
+      "Product": {
+        "Coats": 10
+      },
+      "Ingredient_1": {
+        "Fabric": 2
+      }
+    },
+    {
+      "Building": "Artisan",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Barrels": 10
+      },
+      "Ingredient_1": {
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      },
+      "Ingredient_2": {
+        "Planks": 2
+      }
+    },
+    {
+      "Building": "Artisan",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Pack of Luxury Goods": 2
+      },
+      "Ingredient_1": {
+        "Wine": 4,
+        "Training Gear": 4,
+        "Incense": 4,
+        "Scrolls": 4,
+        "Ale": 4,
+        "Tea": 4
+      }
+    }
+  ],
+  "Cooperage": [
+    {
+      "Building": "Cooperage",
+      "Efficiency": "★★02:48",
+      "Product": {
+        "Coats": 10
+      },
+      "Ingredient_1": {
+        "Fabric": 2
+      }
+    },
+    {
+      "Building": "Cooperage",
+      "Efficiency": "★02:06",
+      "Product": {
+        "Tea": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 4,
+        "Pigment": 4,
+        "Resin": 4,
+        "Mushrooms": 4,
+        "Roots": 4
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 4,
+        "Clearance Water": 5,
+        "Storm Water": 6
+      },
+      "Ingredient_3": {
+        "Crystalized Dew": 2,
+        "Copper Bar": 2
+      }
+    },
+    {
+      "Building": "Cooperage",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Barrels": 10
+      },
+      "Ingredient_1": {
+        "Copper Bar": 1,
+        "Crystalized Dew": 1
+      },
+      "Ingredient_2": {
+        "Planks": 2
+      }
+    }
+  ],
+  "Clothier": [
+    {
+      "Building": "Clothier",
+      "Efficiency": "★★★02:06",
+      "Product": {
+        "Coats": 10
+      },
+      "Ingredient_1": {
+        "Fabric": 1
+      }
+    },
+    {
+      "Building": "Clothier",
+      "Efficiency": "★01:24",
+      "Product": {
+        "Scrolls": 8
+      },
+      "Ingredient_1": {
+        "Leather": 4,
+        "Plant Fiber": 4,
+        "Wood": 10
+      },
+      "Ingredient_2": {
+        "Pigment": 3,
+        "Wine": 3
+      }
+    },
+    {
+      "Building": "Clothier",
+      "Efficiency": "★01:24",
+      "Product": {
+        "Waterskins": 10
+      },
+      "Ingredient_1": {
+        "Leather": 6
+      },
+      "Ingredient_2": {
+        "Oil": 4,
+        "Meat": 4
+      }
+    }
+  ],
+  "Flawless Cooperage": [
+    {
+      "Building": "Flawless Cooperage",
+      "Efficiency": "★★★02:06",
+      "Product": {
+        "Coats": 10
+      },
+      "Ingredient_1": {
+        "Fabric": 1
+      }
+    },
+    {
+      "Building": "Flawless Cooperage",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Tea": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 2,
+        "Pigment": 2,
+        "Resin": 2,
+        "Mushrooms": 2,
+        "Roots": 2
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 2,
+        "Clearance Water": 3,
+        "Storm Water": 4
+      },
+      "Ingredient_3": {
+        "Crystalized Dew": 1,
+        "Copper Bar": 1
+      }
+    },
+    {
+      "Building": "Flawless Cooperage",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Barrels": 10
+      },
+      "Ingredient_1": {
+        "Copper Bar": 1,
+        "Crystalized Dew": 1
+      },
+      "Ingredient_2": {
+        "Planks": 2
+      }
+    }
+  ],
+  "Flawless Druid's Hut": [
+    {
+      "Building": "Flawless Druid's Hut",
+      "Efficiency": "★★★02:06",
+      "Product": {
+        "Coats": 10
+      },
+      "Ingredient_1": {
+        "Fabric": 1
+      }
+    },
+    {
+      "Building": "Flawless Druid's Hut",
+      "Efficiency": "★★★01:45",
+      "Product": {
+        "Incense": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 4,
+        "Roots": 4,
+        "Insects": 4,
+        "Resin": 6
+      },
+      "Ingredient_2": {
+        "Wood": 6,
+        "Oil": 3,
+        "Coal": 2,
+        "Sea Marrow": 2
+      }
+    },
+    {
+      "Building": "Flawless Druid's Hut",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Oil": 5
+      },
+      "Ingredient_1": {
+        "Grain": 2,
+        "Meat": 2,
+        "Vegetables": 2,
+        "Plant Fiber": 2
+      }
+    }
+  ],
+  "Scribe": [
+    {
+      "Building": "Scribe",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Ale": 10
+      },
+      "Ingredient_1": {
+        "Grain": 5,
+        "Roots": 5
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 2,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Scribe",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Scrolls": 8
+      },
+      "Ingredient_1": {
+        "Leather": 2,
+        "Plant Fiber": 2,
+        "Wood": 6
+      },
+      "Ingredient_2": {
+        "Pigment": 1,
+        "Wine": 1
+      }
+    },
+    {
+      "Building": "Scribe",
+      "Efficiency": "★01:30",
+      "Product": {
+        "Tools": 2
+      },
+      "Ingredient_1": {
+        "Wood": 10,
+        "Planks": 3
+      },
+      "Ingredient_2": {
+        "Copper Bar": 4,
+        "Crystalized Dew": 4
+      }
+    }
+  ],
+  "Tinctury": [
+    {
+      "Building": "Tinctury",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Ale": 10
+      },
+      "Ingredient_1": {
+        "Grain": 5,
+        "Roots": 5
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 2,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Tinctury",
+      "Efficiency": "★★01:24",
+      "Product": {
+        "Wine": 10
+      },
+      "Ingredient_1": {
+        "Berries": 3,
+        "Mushrooms": 3,
+        "Reed": 3
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Tinctury",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Pigment": 10
+      },
+      "Ingredient_1": {
+        "Insects": 4,
+        "Berries": 4,
+        "Copper Ore": 4,
+        "Coal": 3
+      }
+    }
+  ],
+  "Rain Mill": [
+    {
+      "Building": "Rain Mill",
+      "Efficiency": "★01:24",
+      "Product": {
+        "Scrolls": 8
+      },
+      "Ingredient_1": {
+        "Leather": 4,
+        "Plant Fiber": 4,
+        "Wood": 10
+      },
+      "Ingredient_2": {
+        "Pigment": 3,
+        "Wine": 3
+      }
+    },
+    {
+      "Building": "Rain Mill",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Flour": 10
+      },
+      "Ingredient_1": {
+        "Grain": 5,
+        "Mushrooms": 5,
+        "Roots": 5
+      }
+    },
+    {
+      "Building": "Rain Mill",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Pack of Building Materials": 2
+      },
+      "Ingredient_1": {
+        "Planks": 8,
+        "Fabric": 5,
+        "Bricks": 5,
+        "Copper Ore": 12
+      }
+    }
+  ],
+  "Flawless Rain Mill": [
+    {
+      "Building": "Flawless Rain Mill",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Scrolls": 8
+      },
+      "Ingredient_1": {
+        "Leather": 2,
+        "Plant Fiber": 2,
+        "Wood": 6
+      },
+      "Ingredient_2": {
+        "Pigment": 1,
+        "Wine": 1
+      }
+    },
+    {
+      "Building": "Flawless Rain Mill",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Flour": 10
+      },
+      "Ingredient_1": {
+        "Grain": 5,
+        "Mushrooms": 5,
+        "Roots": 5
+      }
+    },
+    {
+      "Building": "Flawless Rain Mill",
+      "Efficiency": "★★★00:42",
+      "Product": {
+        "Pack of Building Materials": 2
+      },
+      "Ingredient_1": {
+        "Planks": 6,
+        "Fabric": 3,
+        "Bricks": 3,
+        "Copper Ore": 8
+      }
+    }
+  ],
+  "Alchemist's Hut": [
+    {
+      "Building": "Alchemist's Hut",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Tea": 10
+      },
+      "Ingredient_1": {
+        "Herbs": 3,
+        "Pigment": 3,
+        "Resin": 3,
+        "Mushrooms": 3,
+        "Roots": 3
+      },
+      "Ingredient_2": {
+        "Drizzle Water": 3,
+        "Clearance Water": 4,
+        "Storm Water": 5
+      },
+      "Ingredient_3": {
+        "Crystalized Dew": 2,
+        "Copper Bar": 2
+      }
+    },
+    {
+      "Building": "Alchemist's Hut",
+      "Efficiency": "★★01:24",
+      "Product": {
+        "Wine": 10
+      },
+      "Ingredient_1": {
+        "Berries": 3,
+        "Mushrooms": 3,
+        "Reed": 3
+      },
+      "Ingredient_2": {
+        "Pottery": 3,
+        "Barrels": 3,
+        "Waterskins": 3
+      }
+    },
+    {
+      "Building": "Alchemist's Hut",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Crystalized Dew": 2
+      },
+      "Ingredient_1": {
+        "Herbs": 2,
+        "Insects": 2,
+        "Resin": 2,
+        "Vegetables": 2
+      },
+      "Ingredient_2": {
+        "Stone": 3,
+        "Clay": 3
+      },
+      "Ingredient_3": {
+        "Storm Water": 8,
+        "Clearance Water": 12,
+        "Drizzle Water": 16
+      }
+    }
+  ],
+  "Manufactory": [
+    {
+      "Building": "Manufactory",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Training Gear": 10
+      },
+      "Ingredient_1": {
+        "Stone": 5,
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      },
+      "Ingredient_2": {
+        "Planks": 3,
+        "Reed": 3
+      }
+    },
+    {
+      "Building": "Manufactory",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Pigment": 10
+      },
+      "Ingredient_1": {
+        "Insects": 4,
+        "Berries": 4,
+        "Copper Ore": 4,
+        "Coal": 3
+      }
+    },
+    {
+      "Building": "Manufactory",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Pack of Provisions": 3
+      },
+      "Ingredient_1": {
+        "Herbs": 4,
+        "Berries": 4,
+        "Insects": 4,
+        "Meat": 4,
+        "Eggs": 4
+      }
+    }
+  ],
+  "Tinkerer": [
+    {
+      "Building": "Tinkerer",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Training Gear": 10
+      },
+      "Ingredient_1": {
+        "Stone": 5,
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      },
+      "Ingredient_2": {
+        "Planks": 3,
+        "Reed": 3
+      }
+    },
+    {
+      "Building": "Tinkerer",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Pack of Building Materials": 2
+      },
+      "Ingredient_1": {
+        "Planks": 7,
+        "Fabric": 4,
+        "Bricks": 4,
+        "Copper Ore": 10
+      }
+    },
+    {
+      "Building": "Tinkerer",
+      "Efficiency": "★★01:15",
+      "Product": {
+        "Tools": 2
+      },
+      "Ingredient_1": {
+        "Wood": 8,
+        "Planks": 2
+      },
+      "Ingredient_2": {
+        "Copper Bar": 3,
+        "Crystalized Dew": 3
+      }
+    }
+  ],
+  "Provisioner": [
+    {
+      "Building": "Provisioner",
+      "Efficiency": "★★02:06",
+      "Product": {
+        "Barrels": 10
+      },
+      "Ingredient_1": {
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      },
+      "Ingredient_2": {
+        "Planks": 2
+      }
+    },
+    {
+      "Building": "Provisioner",
+      "Efficiency": "★★01:03",
+      "Product": {
+        "Flour": 10
+      },
+      "Ingredient_1": {
+        "Grain": 7,
+        "Mushrooms": 7,
+        "Roots": 7
+      }
+    },
+    {
+      "Building": "Provisioner",
+      "Efficiency": "★★00:42",
+      "Product": {
+        "Pack of Provisions": 3
+      },
+      "Ingredient_1": {
+        "Herbs": 4,
+        "Berries": 4,
+        "Insects": 4,
+        "Meat": 4,
+        "Eggs": 4
+      }
+    }
+  ],
+  "Stamping Mill": [
+    {
+      "Building": "Stamping Mill",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Copper Bar": 2
+      },
+      "Ingredient_1": {
+        "Copper Ore": 6
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    },
+    {
+      "Building": "Stamping Mill",
+      "Efficiency": "★★01:03",
+      "Product": {
+        "Flour": 10
+      },
+      "Ingredient_1": {
+        "Grain": 7,
+        "Mushrooms": 7,
+        "Roots": 7
+      }
+    },
+    {
+      "Building": "Stamping Mill",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Pottery": 5
+      },
+      "Ingredient_1": {
+        "Clay": 2
+      },
+      "Ingredient_2": {
+        "Wood": 5,
+        "Oil": 2,
+        "Coal": 1,
+        "Sea Marrow": 1
+      }
+    }
+  ],
+  "Forester's Hut": [
+    {
+      "Building": "Forester's Hut",
+      "Efficiency": "★★02:00",
+      "Product": {
+        "Crystalized Dew": 3
+      },
+      "Ingredient_1": {
+        "": null
+      },
+      "Ingredient_2": {
+        "": null
+      },
+      "Ingredient_3": {
+        "": null
+      }
+    }
+  ],
+  "Press": [
+    {
+      "Building": "Press",
+      "Efficiency": "★01:24",
+      "Product": {
+        "Flour": 10
+      },
+      "Ingredient_1": {
+        "Grain": 8,
+        "Mushrooms": 8,
+        "Roots": 8
+      }
+    },
+    {
+      "Building": "Press",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Pack of Luxury Goods": 2
+      },
+      "Ingredient_1": {
+        "Wine": 5,
+        "Training Gear": 5,
+        "Incense": 5,
+        "Scrolls": 5,
+        "Ale": 5,
+        "Tea": 5
+      }
+    },
+    {
+      "Building": "Press",
+      "Efficiency": "★★★01:03",
+      "Product": {
+        "Oil": 5
+      },
+      "Ingredient_1": {
+        "Grain": 2,
+        "Meat": 2,
+        "Vegetables": 2,
+        "Plant Fiber": 2
+      }
+    }
+  ],
+  "Ranch": [
+    {
+      "Building": "Ranch",
+      "Efficiency": "★00:42",
+      "Product": {
+        "Leather": 4
+      },
+      "Ingredient_1": {
+        "Plant Fiber": 2,
+        "Reed": 2,
+        "Grain": 2,
+        "Vegetables": 1
+      }
+    }
+  ],
+  "Finesmith": [
+    {
+      "Building": "Finesmith",
+      "Efficiency": "★★★00:42",
+      "Product": {
+        "Amber": 1
+      },
+      "Ingredient_1": {
+        "Resin": 3
+      },
+      "Ingredient_2": {
+        "Clearance Water": 10,
+        "Oil": 1
+      }
+    },
+    {
+      "Building": "Finesmith",
+      "Efficiency": "★★★01:00",
+      "Product": {
+        "Tools": 2
+      },
+      "Ingredient_1": {
+        "Wood": 6,
+        "Planks": 1
+      },
+      "Ingredient_2": {
+        "Copper Bar": 2,
+        "Crystalized Dew": 2
+      }
+    }
+  ],
+  "Makeshift Post": [
+    {
+      "Building": "Makeshift Post",
+      "Efficiency": "00:56",
+      "Product": {
+        "Pack of Building Materials": 2
+      },
+      "Ingredient_1": {
+        "Planks": 10,
+        "Fabric": 6,
+        "Bricks": 6,
+        "Copper Ore": 14
+      }
+    },
+    {
+      "Building": "Makeshift Post",
+      "Efficiency": "00:56",
+      "Product": {
+        "Pack of Crops": 2
+      },
+      "Ingredient_1": {
+        "Roots": 6,
+        "Grain": 6,
+        "Vegetables": 6,
+        "Mushrooms": 6
+      }
+    },
+    {
+      "Building": "Makeshift Post",
+      "Efficiency": "00:56",
+      "Product": {
+        "Pack of Provisions": 3
+      },
+      "Ingredient_1": {
+        "Herbs": 6,
+        "Berries": 6,
+        "Insects": 6,
+        "Meat": 6,
+        "Eggs": 6
+      }
+    }
+  ]
+}

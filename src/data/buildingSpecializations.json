@@ -1,0 +1,242 @@
+{
+     "Small Foragers' Camp": [
+        "Farming"
+    ],
+    "Foragers' Camp": [
+        "Farming"
+    ],
+    "Harvesters' Camp": [
+        "none"
+    ],
+    "Small Herbalists' Camp": [
+        "Alchemy"
+    ],
+    "Herbalists' Camp": [
+        "Alchemy"
+    ],
+    "Stonecutters' Camp": [
+        "none"
+    ],
+    "Small Trappers' Camp": [
+        "Meat"
+    ],
+    "Trappers' Camp": [
+        "Meat"
+    ],
+    "Woodcutters' Camp": [
+        "Wood"
+    ],"Advanced Rain Collector": [
+        "Rainwater"
+    ],
+    "Alchemist's Hut": [
+        "Alchemy",
+        "Brewing",
+        "Rainwater"
+    ],
+    "Apothecary": [
+        "Alchemy",
+        "Rainwater"
+    ],
+    "Artisan": [
+        "Cloth"
+    ],
+    "Brewery": [
+        "Brewing"
+    ],
+    "Brickyard": [
+        "Rainwater"
+    ],
+    "Carpenter": [
+        "Wood"
+    ],
+    "Clothier": [
+        "Cloth"
+    ],
+    "Cooperage": [
+        "Wood",
+        "Rainwater"
+    ],
+    "Crude Workstation": [
+        "none"
+    ],
+    "Distillery": [
+        "Brewing",
+        "Rainwater"
+    ],
+    "Druid's Hut": [
+        "Alchemy"
+    ],
+    "Finesmith": [
+        "Alchemy",
+        "Rainwater"
+    ],
+    "Flawless Brewery": [
+        "Brewing"
+    ],
+    "Flawless Cooperage": [
+        "Wood",
+        "Rainwater"
+    ],
+    "Flawless Druid's Hut": [
+        "Alchemy"
+    ],
+    "Flawless Leatherworker": [
+        "Cloth",
+        "Meat"
+    ],
+    "Flawless Rain Mill": [
+        "Engineering",
+        "Farming"
+    ],
+    "Flawless Smelter": [
+        "Warmth"
+    ],
+    "Furnace": [
+        "Warmth"
+    ],
+    "Geyser Pump": [
+        "Rainwater"
+    ],
+    "Kiln": [
+        "Warmth"
+    ],
+    "Leatherworker": [
+        "Cloth",
+        "Meat"
+    ],
+    "Lumber Mill": [
+        "Wood"
+    ],
+    "Makeshift Post": [
+        "none"
+    ],
+    "Manufactory": [
+        "Cloth"
+    ],
+    "Mine": [
+        "Engineering"
+    ],
+    "Press": [
+        "Engineering"
+    ],
+    "Provisioner": [
+        "none"
+    ],
+    "Rain Collector": [
+        "Rainwater"
+    ],
+    "Rain Mill": [
+        "Engineering",
+        "Farming"
+    ],
+    "Rainpunk Foundry": [
+        "Engineering",
+        "Warmth",
+        "Rainwater"
+    ],
+    "Scribe": [
+        "Brewing"
+    ],
+    "Smelter": [
+        "Warmth"
+    ],
+    "Smithy": [
+        "Engineering",
+        "Warmth"
+    ],
+    "Stamping Mill": [
+        "Engineering"
+    ],
+    "Supplier": [
+        "Cloth"
+    ],
+    "Teahouse": [
+        "Alchemy",
+        "Rainwater"
+    ],
+    "Tinctury": [
+        "Alchemy",
+        "Brewing"
+    ],
+    "Tinkerer": [
+        "Engineering"
+    ],
+    "Toolshop": [
+        "Engineering"
+    ],
+    "Weaver": [
+        "Cloth"
+    ],
+    "Workshop": [
+        "none"
+    ],"Bakery": [
+        "Warmth"
+    ],
+    "Beanery": [
+        "Warmth",
+        "Rainwater"
+    ],
+    "Brick Oven": [
+        "Warmth"
+    ],
+    "Butcher": [
+        "Meat"
+    ],
+    "Cellar": [
+        "Brewing"
+    ],
+    "Clay Pit": [
+        "Rainwater"
+    ],
+    "Cookhouse": [
+        "Warmth"
+    ],
+    "Farm Field": [
+        "none"
+    ],
+    "Field Kitchen": [
+        "none"
+    ],
+    "Flawless Cellar": [
+        "Brewing"
+    ],
+    "Forester's Hut": [
+        "Wood"
+    ],
+    "Granary": [
+        "Farming"
+    ],
+    "Greenhouse": [
+        "Farming",
+        "Rainwater"
+    ],
+    "Grill": [
+        "Warmth",
+        "Meat"
+    ],
+    "Hallowed Herb Garden": [
+        "Farming"
+    ],
+    "Hallowed Small Farm": [
+        "Farming"
+    ],
+    "Herb Garden": [
+        "Farming"
+    ],
+    "Homestead": [
+        "Farming"
+    ],
+    "Plantation": [
+        "Farming"
+    ],
+    "Ranch": [
+        "Meat"
+    ],
+    "Small Farm": [
+        "Farming"
+    ],
+    "Smokehouse": [
+        "Warmth",
+        "Meat"
+    ]
+}
