@@ -9,7 +9,7 @@ const BuildingList: Component = () => {
         {([buildingName, recipes]) => (
           <div class="bg-gray-100 p-4 m-4 rounded-lg flex flex-col items-center">
             <img
-              src={`/icons/buildings/84px-${makeBuildingIconPart(
+              src={`/storm-data/icons/buildings/84px-${makeBuildingIconPart(
                 buildingName
               )}_icon.png`}
               width={84}
@@ -29,7 +29,7 @@ const BuildingList: Component = () => {
                       <div class="flex space-x-1">
                         <div class="">
                           <img
-                            src={`/icons/resources/60px-Icon_Resource_${makeResourceIconPart(
+                            src={`/storm-data/icons/resources/60px-Icon_Resource_${makeResourceIconPart(
                               productName
                             )}.png`}
                             alt={productName}
