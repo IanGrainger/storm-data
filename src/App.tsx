@@ -1,5 +1,5 @@
 import { type Component } from 'solid-js';
-import { BuildingList } from './components/BuildingList';
+import { BlueprintList } from './components/BlueprintList';
 import { Options } from './components/Options';
 import { OptionsProvider } from './providers/OptionsProvider';
 
@@ -8,7 +8,7 @@ export const App: Component = () => {
     <div>
       <OptionsProvider>
         <Options />
-        <BuildingList />
+        <BlueprintList />
       </OptionsProvider>
     </div>
   );

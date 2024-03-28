@@ -3,14 +3,14 @@ import { For, Show } from 'solid-js';
 import recipesByBuilding from 'src/data/recipesByBuilding.json';
 import { useOptionsContext } from 'src/providers/OptionsProvider';
 
-export const BuildingList: Component = () => {
+export const BlueprintList: Component = () => {
   const [options] = useOptionsContext();
   return (
     <div class="flex flex-wrap">
       <For each={Object.entries(recipesByBuilding)}>
         {([buildingName, recipes]) => (
           <div class="bg-gray-100 p-4 m-4 rounded-lg flex flex-col items-center">
-            <div class="mb-2">
+            <div class="mb-2 flex flex-col items-center">
               <Show when={options.showBuildingIcons}>
                 <img
                   src={`./icons/buildings/84px-${makeBuildingIconPart(
