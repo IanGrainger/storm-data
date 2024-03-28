@@ -2,7 +2,7 @@
 import './index.css';
 import { render } from 'solid-js/web';
 
-import App from './App';
+import { App } from './App';
 
 const base = document.createElement('base');
 base.href = import.meta.env.BASE_URL;

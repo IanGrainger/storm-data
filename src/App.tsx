@@ -1,8 +1,15 @@
-import type { Component } from 'solid-js';
-import BuildingList from './components/buildingList';
+import { type Component } from 'solid-js';
+import { BuildingList } from './components/BuildingList';
+import { Options } from './components/Options';
+import { OptionsProvider } from './providers/OptionsProvider';
 
-const App: Component = () => {
-  return <BuildingList />;
+export const App: Component = () => {
+  return (
+    <div>
+      <OptionsProvider>
+        <Options />
+        <BuildingList />
+      </OptionsProvider>
+    </div>
+  );
 };
-
-export default App;
