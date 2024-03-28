@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.buildingList.solid-select-container {
+  background-color: white;
+}
+/* .buildingList .solid-select-control {
+  outline-color: #fca560;
+  border-color: #fca560;
+}
+.buildingList .solid-select-placeholder {
+  color: #fca560;
+}
+.buildingList .solid-select-option {
+  background-color: #fa7f25;
+  color: #fff;
+}
+.buildingList .solid-select-option[data-focused='true'] {
+  background-color: #fca560;
+  color: #fff;
+} */
+/* .buildingList .solid-select-list {
+  background-color: #fa7f25;
+} */
