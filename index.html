@@ -1,12 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- prettier-ignore -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <title>Against the Storm data</title>
     <link rel="icon" type="image/x-icon" href="./icons/ats.ico" />
+
+    <!-- preloads -->
+    <link rel="preload" href="./icons/buildings/84px-Alchemists_Hut_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Apothecary_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Artisan_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Bakery_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Bath_House_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Beanery_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Beaver_circle.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Brewery_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Brick_Oven_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Brickyard_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Butcher_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Carpenter_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Cellar_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Clan_Hall_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Clay_Pit_Workshop_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Clothier_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Cookhouse_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Cooperage_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Crude_Workstation_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Distillery_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Druids_Hut_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Explorers_Lodge_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Field_Kitchen_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Finesmith_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Flawless_Brewery_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Flawless_Rain_Mill_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Forum_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Furnace_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Granary_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Greenhouse_Workshop_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Grill_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Grove_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Guild_House_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Herb_Garden_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Kiln_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Leatherworker_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Lumber_Mill_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Makeshift_Post_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Market_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Monastery_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Plantation_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Press_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Provisioner_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Rain_Mill_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Rainpunk_Foundry_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Ranch_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Scribe_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-SmallFarm_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Smelter_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Smithy_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Smokehouse_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Stamping_Mill_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Supplier_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Tavern_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Tea_Doctor_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Teahouse_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Temple_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Tinctury_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Tinkerer_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Toolshop_icon.png" as="image">
+    <link rel="preload" href="./icons/buildings/84px-Weaver_icon.png" as="image">
+
+    <link rel="preload" href="./icons/races/84px-Fox_circle.png" as="image">
+    <link rel="preload" href="./icons/races/84px-Harpy_circle.png" as="image">
+    <link rel="preload" href="./icons/races/84px-Human_circle.png" as="image">
+    <link rel="preload" href="./icons/races/84px-Lizard_circle.png" as="image">
+
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Ale.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Amber.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Barrels.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Berries.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Biscuits.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Brawling.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Bricks.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Clay.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_ClearanceWater.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Coal.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Coats.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_CopperBar.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_CopperOre.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Cosmetics.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_CrystalizedDew.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_DrizzleWater.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Education.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Eggs.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Fabric.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Flour.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Grain.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Herbs.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Incense.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_InfusedTools.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Insects.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Jerky.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Leather.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Leisure.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Luxury.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Meat.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Mushrooms.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Oil.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_PackofBuildingMaterials.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_PackofCrops.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_PackofLuxuryGoods.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_PackofProvisions.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_PackofTradeGoods.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Parts.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_PickledGoods.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Pie.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Pigment.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Pipes.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Planks.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_PlantFiber.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Porridge.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Pottery.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Reed.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Religion.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Resin.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Roots.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Scrolls.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_SeaMarrow.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Skewers.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_SparkDew.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Stone.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_StormWater.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Tea.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Tools.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_TrainingGear.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Treatment.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Vegetables.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Waterskins.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Wine.png" as="image">
+    <link rel="preload" href="./icons/resources/60px-Icon_Resource_Wood.png" as="image">
   </head>
+  <!-- prettier-ignore -->
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
