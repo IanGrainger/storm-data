@@ -17,12 +17,16 @@ export const BuildingSelect: Component<{ signal: Signal<string[]> }> = (
   });
 
   return (
-    <Select
-      placeholder="Select buildings..."
-      class="buildingList"
-      multiple
-      onChange={onChange}
-      {...buildingOptions}
-    />
+    <div class="flex flex-row">
+      <Select
+        placeholder="Select buildings..."
+        class="buildingList"
+        multiple
+        onChange={onChange}
+        initialValue={selectedValues()}
+        {...buildingOptions}
+      />
+      <button onClick={() => setSelectedValues([])}>❌</button>
+    </div>
   );
 };
