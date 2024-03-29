@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.buildingList.solid-select-container {
+.solid-select-container {
   background-color: white;
 }
-/* .buildingList .solid-select-control {
+
+/* .buildingList.solid-select-container {
+  background-color: white;
+}
+.buildingList .solid-select-control {
   outline-color: #fca560;
   border-color: #fca560;
 }

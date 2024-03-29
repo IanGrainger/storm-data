@@ -1,0 +1,80 @@
+{
+  "Coral Forest": [
+    "Wood",
+    "Incense",
+    "Stone",
+    "CrystalizedDew",
+    "Meat",
+    "PlantFiber",
+    "Vegetables",
+    "Reed",
+    "Herbs",
+    "Insects",
+    "Coal"
+  ],
+  "Cursed Royal Woodlands": [
+    "Wood",
+    "PlantFiber",
+    "Roots",
+    "Insects",
+    "Grain",
+    "Vegetables",
+    "Herbs",
+    "Mushrooms",
+    "Clay",
+    "SeaMarrow",
+    "CopperOre"
+  ],
+  "Marshlands": [
+    "Wood",
+    "Mushrooms",
+    "Leather",
+    "Eggs",
+    "Grain",
+    "Stone",
+    "Meat",
+    "Coal",
+    "CopperOre"
+  ],
+  "Royal Woodlands": [
+    "Wood",
+    "Eggs",
+    "PlantFiber",
+    "Resin",
+    "Roots",
+    "Vegetables",
+    "Berries",
+    "Mushrooms",
+    "Clay",
+    "SeaMarrow",
+    "CopperOre",
+    "Meat"
+  ],
+  "Sealed Forest": [
+    "Wood",
+    "Meat",
+    "Leather",
+    "Roots",
+    "Reed",
+    "Berries",
+    "Mushrooms",
+    "Clay",
+    "SeaMarrow",
+    "Insects",
+    "CopperOre"
+  ],
+  "Scarlet Orchard": [
+    "Wood",
+    "CopperOre",
+    "Pigment",
+    "PlantFiber",
+    "Grain",
+    "Roots",
+    "Herbs",
+    "Reed",
+    "Berries",
+    "SeaMarrow",
+    "Stone",
+    "Eggs"
+  ]
+}
