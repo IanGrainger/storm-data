@@ -2,6 +2,10 @@ import type { Accessor, Component } from 'solid-js';
 import { For, Show } from 'solid-js';
 import recipesByBuilding from 'src/data/recipesByBuilding.json';
 import { useOptionsContext } from 'src/providers/OptionsProvider';
+import {
+  makeBuildingIconPart,
+  makeResourceIconPart,
+} from '../functions/IconNameUtils';
 
 export const BuildingList: Component<{ showNamesAccr: Accessor<string[]> }> = (
   props
@@ -78,14 +82,3 @@ export const BuildingList: Component<{ showNamesAccr: Accessor<string[]> }> = (
     </div>
   );
 };
-
-function makeBuildingIconPart(buildingName: string) {
-  return buildingName
-    .replace(/^Flawless /, '')
-    .replace(/'/g, '')
-    .replace(/ /g, '_');
-}
-
-function makeResourceIconPart(resourceName: string) {
-  return resourceName.replace(/ /g, '');
-}

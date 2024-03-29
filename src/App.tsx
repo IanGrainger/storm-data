@@ -7,6 +7,7 @@ import { OptionsProvider } from './providers/OptionsProvider';
 import { ResourcesSelect } from './components/ResourcesSelect';
 import { BiomeSelect } from './components/BiomeSelect';
 import biomes from './data/biomes.json';
+import { GoodsList } from './components/GoodsList';
 
 export const App: Component = () => {
   const selectedBuildingsSignal = createSignal([] as string[]);
@@ -27,7 +28,12 @@ export const App: Component = () => {
         <BiomeSelect signal={selectedBiomeSignal} />
         <ResourcesSelect signal={selectedResourcesSignal} />
         <BuildingSelect signal={selectedBuildingsSignal} />
+        {/* don't actually need this now we are showing outputs? */}
         <BuildingList showNamesAccr={selectedBuildingsSignal[0]} />
+        <GoodsList
+          buildingsAccr={selectedBuildingsSignal[0]}
+          resourcesAccr={selectedResourcesSignal[0]}
+        />
       </OptionsProvider>
     </div>
   );
