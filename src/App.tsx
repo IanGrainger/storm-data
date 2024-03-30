@@ -8,11 +8,15 @@ import { ResourcesSelect } from './components/ResourcesSelect';
 import { BiomeSelect } from './components/BiomeSelect';
 import biomes from './data/biomes.json';
 import { GoodsList } from './components/GoodsList';
+import { BlueprintSelect } from './components/BlueprintSelect';
+import { BlueprintList } from './components/BlueprintList';
 
 export const App: Component = () => {
-  const selectedBuildingsSignal = createSignal([] as string[]);
-  const selectedResourcesSignal = createSignal([] as string[]);
   const selectedBiomeSignal = createSignal('');
+  const selectedResourcesSignal = createSignal([] as string[]);
+  const selectedBuildingsSignal = createSignal([] as string[]);
+  const selectedBlueprintsSignal = createSignal([] as string[]);
+  const highlightedBlueprintSignal = createSignal('');
 
   createEffect(() => {
     const selectedBiomeName = selectedBiomeSignal[0]();
@@ -27,11 +31,22 @@ export const App: Component = () => {
         <Options />
         <BiomeSelect signal={selectedBiomeSignal} />
         <ResourcesSelect signal={selectedResourcesSignal} />
+        <BlueprintSelect
+          signal={selectedBlueprintsSignal}
+          buildingsSignal={selectedBuildingsSignal}
+        />
+        <BlueprintList
+          blueprintsSignal={selectedBlueprintsSignal}
+          highlightedBlueprintSignal={highlightedBlueprintSignal}
+          buildingsSignal={selectedBuildingsSignal}
+        />
+
         <BuildingSelect signal={selectedBuildingsSignal} />
         <BuildingList showNamesAccr={selectedBuildingsSignal[0]} />
         <GoodsList
-          buildingsAccr={selectedBuildingsSignal[0]}
           resourcesAccr={selectedResourcesSignal[0]}
+          buildingsAccr={selectedBuildingsSignal[0]}
+          blueprintAccr={highlightedBlueprintSignal[0]}
         />
       </OptionsProvider>
     </div>

@@ -1,10 +1,11 @@
-import { Component, Accessor, For } from 'solid-js';
+import { Component, Accessor, For, Show } from 'solid-js';
 import recipesByBuilding from 'src/data/recipesByBuilding.json';
 import { GoodsListItem } from './GoodsListItem';
 
 export const GoodsList: Component<{
-  buildingsAccr: Accessor<string[]>;
   resourcesAccr: Accessor<string[]>;
+  buildingsAccr: Accessor<string[]>;
+  blueprintAccr: Accessor<string>;
 }> = (props) => {
   function removeDups<T>(arr: T[]): T[] {
     return [...new Set(arr)];
@@ -53,15 +54,40 @@ export const GoodsList: Component<{
     return dedup;
   };
 
+  function currentGoods() {
+    return getGoods(props.buildingsAccr(), props.resourcesAccr());
+  }
+
+  function goodsWithBlueprint() {
+    return getGoods(
+      [...props.buildingsAccr(), props.blueprintAccr()],
+      props.resourcesAccr()
+    );
+  }
+
+  function justNewGoodsWithBlueprint() {
+    return goodsWithBlueprint().filter(
+      (good) => !currentGoods().includes(good)
+    );
+  }
+
   return (
     <>
       <div class="p-2">
-        <h2 class="mb-2 text-xl text-red-700">Possible Goods</h2>
+        <h2 class="mb-2 text-xl text-red-700">Possible goods</h2>
         <ul class="flex flex-wrap">
-          <For each={getGoods(props.buildingsAccr(), props.resourcesAccr())}>
+          <For each={currentGoods()}>
             {(productName) => <GoodsListItem productName={productName} />}
           </For>
         </ul>
+        <Show when={justNewGoodsWithBlueprint().length > 0}>
+          <h2 class="mb-2 text-xl text-red-700">With selected blueprint</h2>
+          <ul class="flex flex-wrap">
+            <For each={justNewGoodsWithBlueprint()}>
+              {(productName) => <GoodsListItem productName={productName} />}
+            </For>
+          </ul>
+        </Show>
       </div>
     </>
   );

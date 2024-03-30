@@ -24,7 +24,7 @@ export function OptionsProvider(props) {
   return (
     <OptionsContext.Provider
       value={makeOptionsContext({
-        showBuildingCards: true,
+        showBuildingCards: false,
         showBuildingIcons: true,
         showBuildingNames: true,
         showRecipeIcons: true,
