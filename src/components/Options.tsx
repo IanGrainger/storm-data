@@ -19,6 +19,19 @@ export const Options: Component = () => {
               <label>
                 <input
                   type="checkbox"
+                  checked={options.showBuildingCards}
+                  onChange={(e) =>
+                    setOptions('showBuildingCards', e.target.checked)
+                  }
+                  class="mx-2"
+                />
+                Show Building Cards
+              </label>
+            </div>
+            <div>
+              <label>
+                <input
+                  type="checkbox"
                   checked={options.showBuildingIcons}
                   onChange={(e) =>
                     setOptions('showBuildingIcons', e.target.checked)

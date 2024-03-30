@@ -2,6 +2,7 @@ import { createContext, useContext } from 'solid-js';
 import { createStore } from 'solid-js/store';
 
 type Options = {
+  showBuildingCards: boolean;
   showBuildingIcons: boolean;
   showBuildingNames: boolean;
   showRecipeIcons: boolean;
@@ -23,6 +24,7 @@ export function OptionsProvider(props) {
   return (
     <OptionsContext.Provider
       value={makeOptionsContext({
+        showBuildingCards: true,
         showBuildingIcons: true,
         showBuildingNames: true,
         showRecipeIcons: true,
