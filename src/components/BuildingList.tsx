@@ -33,7 +33,7 @@ export const BuildingList: Component<{ showNamesAccr: Accessor<string[]> }> = (
                   />
                 </Show>
                 <Show when={options.showBuildingNames}>
-                  <h2 class="text-2xl text-green-700">{buildingName}</h2>
+                  <h2 class="text-xl text-green-700">{buildingName}</h2>
                 </Show>
               </div>
               <ul class="list-none">

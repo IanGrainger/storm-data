@@ -1,1588 +1,1088 @@
 {
-    "Goods": [
+  "Goods": [
+    {
+      "Name": "Amber",
+      "Recipes": [
         {
-            "Name": "Amber",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Resin",
-                        "Oil"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Resin",
-                        "SparkDew"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": [
-                    "Finesmith"
-                ]
-            }
+          "Inputs": ["Resin", "Oil"]
         },
         {
-            "Name": "Pack of Building Materials",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Bricks"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "CopperOre"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Fabric"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Planks"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Makeshift Post"],
-                "1 Star": [
-                    "Rain Mill"
-                ],
-                "2 Star": [
-                    "Tinkerer"
-                ],
-                "3 Star": [
-                    "Flawless Rain Mill"
-                ]
-            }
-        },
-        {
-            "Name": "Pack of Crops",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Grain"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Mushrooms"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Roots"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Vegetables"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Makeshift Post"],
-                "1 Star": [
-                    "Brewery"
-                ],
-                "2 Star": [
-                    "Granary"
-                ],
-                "3 Star": [
-                    "Flawless Brewery"
-                ]
-            }
-        },
-        {
-            "Name": "Pack of Luxury Goods",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Ale"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Cosmetics"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Incense"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Scrolls"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "TrainingGear"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Wine"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Press",
-                    "Leatherworker"
-                ],
-                "2 Star": [
-                    "Carpenter"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Pack of Provisions",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Berries"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Eggs"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Herbs"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Insects"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Meat"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Makeshift Post"],
-                "1 Star": [],
-                "2 Star": [
-                    "Manufactory",
-                    "Provisioner"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Pack of Trade Goods",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Barrels"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Flour"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Oil"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Pigment"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Pottery"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Waterskins"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Lumber Mill",
-                    "Weaver"
-                ],
-                "2 Star": [
-                    "Smithy"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Coal",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Wood"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Brick Oven"
-                ],
-                "2 Star": [],
-                "3 Star": [
-                    "Kiln"
-                ]
-            }
-        },
-        {
-            "Name": "Oil",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Grain"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Meat"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "PlantFiber"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Vegetables"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Butcher"
-                ],
-                "3 Star": [
-                    "Druid's Hut","Press"
-                ]
-            }
-        },
-        {
-            "Name": "SeaMarrow",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Wood",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Purging Fire",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Infused Tools",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "SparkDew",
-                        "Planks",
-                        "CopperBar"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": [
-                    "Finesmith"
-                ]
-            }
-        },
-        {
-            "Name": "Simple Tools",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Planks",
-                        "CopperBar"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Wood",
-                        "CrystalizedDew"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Scribe"
-                ],
-                "2 Star": [
-                    "Carpenter",
-                    "Smithy",
-                    "Tinkerer"
-                ],
-                "3 Star": [
-                    "Toolshop"
-                ]
-            }
-        },
-        {
-            "Name": "Berries",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Plantation"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Biscuits",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Flour",
-                        "Berries"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Flour",
-                        "Herbs"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Flour",
-                        "Roots"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Field Kitchen"],
-                "1 Star": [
-                    "Smelter"
-                ],
-                "2 Star": [
-                    "Cookhouse",
-                    "Apothecary",
-                    "Bakery"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Eggs",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Berries"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Grain"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Insects"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Reed"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Ranch"
-                ],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Insects",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Jerky",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Insects",
-                        "Coal"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Meat",
-                        "Oil"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Meat",
-                        "SeaMarrow"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Meat",
-                        "Wood"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Field Kitchen"],
-                "1 Star": [
-                    "Kiln",
-                    "Cellar"
-                ],
-                "2 Star": [
-                    "Butcher"
-                ],
-                "3 Star": [
-                    "Smokehouse"
-                ]
-            }
-        },
-        {
-            "Name": "Meat",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Grain"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "PlantFiber"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Reed"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Vegetable"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Ranch"
-                ],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Mushrooms",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "SparkDew"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Greenhouse"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Pickled Goods",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Barrels",
-                        "Berries"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Pottery",
-                        "Mushrooms"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Waterskins",
-                        "Roots"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Vegetables"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Field Kitchen"],
-                "1 Star": [
-                    "Cellar",
-                    "Brewery",
-		"Beanery"
-                ],
-                "2 Star": [
-                    "Granary"
-                ],
-                "3 Star": [
-                    "Flawless Brewery"
-                ]
-            }
-        },
-        {
-            "Name": "Pie",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Flour",
-                        "Berries"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Flour",
-                        "Eggs"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Flour",
-                        "Herbs"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Flour",
-                        "Insects"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Flour",
-                        "Meat"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Bakery"
-                ],
-                "2 Star": [
-                    "Furnace",
-                    "Bakery"
-                ],
-                "3 Star": [
-                    "Brick Oven"
-                ]
-            }
-        },
-        {
-            "Name": "Roots",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Herb Garden"
-                ],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Skewers",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Insects",
-                        "Berries"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Jerky",
-                        "Eggs"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Meat",
-                        "Roots"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Mushrooms",
-                        "Vegetables"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Butcher",
-                    "Cookhouse"
-                ],
-                "2 Star": [],
-                "3 Star": [
-                    "Grill"
-                ]
-            }
-        },
-        {
-            "Name": "Vegetables",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Small Farm"
-                ],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Barrels",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Planks",
-                        "CopperBar"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Planks",
-                        "CrystalizedDew"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Toolshop"
-                ],
-                "2 Star": [
-                    "Artisan",
-                    "Provisioner"
-                ],
-                "3 Star": [
-                    "Cooperage"
-                ]
-            }
-        },
-        {
-            "Name": "Clay",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "SparkDew"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Clay Pit"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "CopperBar",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "CopperOre",
-                        "Coal"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "CopperOre",
-                        "Oil"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "CopperOre",
-                        "SeaMarrow"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "CopperOre",
-                        "Wood"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Stamping Mill",
-                    "Grill"
-                ],
-                "2 Star": [
-                    "Furnace"
-                ],
-                "3 Star": [
-                    "Smelter"
-                ]
-            }
-        },
-        {
-            "Name": "CopperOre",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Stamping Mill",
-                    "Grill"
-                ],
-                "2 Star": [
-                    "Furnace"
-                ],
-                "3 Star": [
-                    "Smelter"
-                ]
-            }
-        },
-        {
-            "Name": "CrystalizedDew",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "SparkDew",
-                        "Clay",
-                        "Herbs"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "SparkDew",
-                        "Stone",
-                        "Insects"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "SparkDew",
-                        "Stone",
-                        "Resin"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "SparkDew",
-                        "Stone",
-                        "Vegetables"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Smelter",
-			"Beanery"
-                ],
-                "2 Star": [
-                    "Brickyard",
-                    "Alchemist's Hut",
-                    "Grove"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Flour",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Grain"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Roots"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Mushrooms"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Press"
-                ],
-                "2 Star": [
-                    "Supplier",
-                    "Stamping Mill",
-                    "Provisioner"
-                ],
-                "3 Star": [
-                    "Rain Mill","Flawless Rain Mill"
-                ]
-            }
-        },
-        {
-            "Name": "Grain",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Small Farm"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Herbs",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "SparkDew"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Greenhouse",
-                    "Herb Garden"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Leather",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Grain"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "PlantFiber"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Reed"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Vegetables"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Ranch"
-                ],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Pigment",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Berries"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Coal"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "CopperOre"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Insects"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Artisan",
-                    "Manufactory",
-                    "Cookhouse"
-                ],
-                "3 Star": [
-                    "Tinctury"
-                ]
-            }
-        },{
-            "Name": "Pipes",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "CopperBars"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "CrystalizedDew"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Crude Workstation","Workshop"],
-                "1 Star": [],
-                "2 Star": [
-                    "Smithy",
-                    "Toolshop",
-                    ""
-                ],
-                "3 Star": [
-                    ""
-                ]
-            }
-        },
-        {
-            "Name": "PlantFiber",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Plantation"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Porridge",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Grain",
-                        "DrizzleWater"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Vegetables",
-	"ClearanceWater"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Mushrooms",
-	"StormWater"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Herbs","StormWater"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Field Kitchen"],
-                "1 Star": [],
-                "2 Star": [
-                    "Distillery",
-                    "Teahouse"
-                ],
-                "3 Star": [
-                    "Beanery"
-                ]
-            }
-        },
-        {
-            "Name": "Pottery",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Clay",
-                        "Coal"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Oil"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "SeaMarrow"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Wood"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Smokehouse"
-                ],
-                "2 Star": [
-                    "Brickyard",
-                    "Bakery"
-                ],
-                "3 Star": [
-                    "Stamping Mill"
-                ]
-            }
-        },
-        {
-            "Name": "Reed",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "SparkDew"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Clay Pit"
-                ],
-                "3 Star": []
-            }
-        },{
-            "Name": "Tea",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Herbs","DrizzleWater","CrystalizedDew"
-                    ]
-                },                {
-                    "Inputs": [
-                        "Pigment","StormWater","CopperBar"
-                    ]
-                },                {
-                    "Inputs": [
-                        "Resin","ClearanceWater","CopperBar"
-                    ]
-                },                {
-                    "Inputs": [
-                        "Mushrooms","ClearanceWater","CopperBar"
-                    ]
-                },                {
-                    "Inputs": [
-                        "Roots","ClearanceWater","CopperBar"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": ["Cooperage"],
-                "2 Star": ["Alchemist's Hut", "Apothecary"],
-                "3 Star": ["Flawless Cooperage","Teahouse"]
-            }
-        },
-        {
-            "Name": "Resin",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Grove"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Sparkdew",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Stone",
-            "Recipes": [],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Waterskins",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Leather",
-                        "Meat"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Leather",
-                        "Oil"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-
-                    "Clothier","Teahouse"
-                ],
-                "2 Star": [
-                    "Supplier"
-                ],
-                "3 Star": [
-                    "Leatherworker"
-                ]
-            }
-        },
-        {
-            "Name": "Ale",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Grain",
-                        "Barrels"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Roots",
-                        "Pottery"
-                    ]
-                },
-                {
-                    "Inputs": [
-                        "Roots",
-                        "Waterskins"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Grill"
-                ],
-                "2 Star": [
-                    "Scribe",
-                    "Tinctury","Distillery"
-                ],
-                "3 Star": [
-                    "Brewery","Flawless Brewery"
-                ]
-            }
-        },
-        {
-            "Name": "Coats",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Fabric"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Druid's Hut"
-                ],
-                "2 Star": [
-                    "Artisan","Cooperage"
-                ],
-                "3 Star": [
-                    "Clothier"
-                ]
-            }
-        },
-        {
-            "Name": "Cosmetics",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Eggs",
-                        "Herbs"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Cooperage"
-                ],
-                "2 Star": [
-                    "Apothecary",
-                    "Alchemist's Hut"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Incense",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Herbs",
-                        "Coal"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Smokehouse",
-                    "Druid's Hut",
-                    "Brick Oven"
-                ],
-                "2 Star": [
-                    "Apothecary"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Scrolls",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Pigment",
-                        "Leather"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Rain Mill",
-                    "Lumber Mill",
-                    "Clothier"
-                ],
-                "2 Star": [],
-                "3 Star": ["Scribe",
-                    "Flawless Rain Mill"
-                ]
-            }
-        },
-        {
-            "Name": "TrainingGear",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Planks",
-                        "CopperBar"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [
-                    "Weaver"
-                ],
-                "2 Star": [
-                    "Manufactory",
-                    "Tinkerer",
-                    "Cooperage"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Wine",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Berries",
-                        "Barrels"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [
-                    "Tinctury",
-                    "Alchemist's Hut","Distillery"
-                ],
-                "3 Star": [
-                    "Cellar"
-                ]
-            }
-        },
-        {
-            "Name": "Bricks",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Clay"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Crude Workstation"],
-                "1 Star": [
-                    "Kiln"
-                ],
-                "2 Star": [
-                    "Furnace",
-                    "Workshop",
-                    "Brickyard"
-                ],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Fabric",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Leather"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Crude Workstation"],
-                "1 Star": [],
-                "2 Star": [
-                    "Granary",
-                    "Workshop",
-                    "Leatherworker"
-                ],
-                "3 Star": [
-                    "Weaver"
-                ]
-            }
-        },
-        {
-            "Name": "Parts",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Coal",
-                        "Clay"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": [
-                    "Rainpunk Foundry"
-                ]
-            }
-        },
-        {
-            "Name": "Planks",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Wood"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Crude Workstation"],
-                "1 Star": [],
-                "2 Star": [
-                    "Workshop",
-                    "Carpenter",
-                    "Supplier"
-                ],
-                "3 Star": [
-                    "Lumber Mill"
-                ]
-            }
-        },
-        {
-            "Name": "Brawling",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "TrainingGear"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Clan Hall", "Explorers' Lodge", "Tea Doctor"],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Education",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Scrolls"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Forum", "Explorers' Lodge", "Holy Temple","Temple"],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Leisure",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Ale"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Forum", "Tavern", "Monastery"],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Luxury",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Wine"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Guild House", "Holy Market", "Market" , "Tavern"],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Religion",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Incense"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Clan Hall", "Holy Temple", "Temple", "Monastery"],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Treatment",
-            "Recipes": [
-                {
-                    "Inputs": [
-                        "Tea"
-                    ]
-                }
-            ],
-            "Buildings": {
-                "Collection": ["Bath House", "Holy Market", "Market", "Tea Doctor"],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": []
-            }
-        },
-        {
-            "Name": "Wildfire Essence",
-            "Recipes": [
-			{"Inputs":["Coal","CopperBar","StormWater"]},
-{"Inputs":["CrystalizedDew","Coal","ClearanceWater"]}
-            ],
-            "Buildings": {
-                "Collection": [],
-                "1 Star": [],
-                "2 Star": [],
-                "3 Star": ["Rainpunk Foundry"]
-            }
+          "Inputs": ["Resin", "SparkDew"]
         }
-	
-    ]
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": ["Finesmith"]
+      }
+    },
+    {
+      "Name": "Pack of Building Materials",
+      "Recipes": [
+        {
+          "Inputs": ["Bricks"]
+        },
+        {
+          "Inputs": ["Copper Ore"]
+        },
+        {
+          "Inputs": ["Fabric"]
+        },
+        {
+          "Inputs": ["Planks"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Makeshift Post"],
+        "1 Star": ["Rain Mill"],
+        "2 Star": ["Tinkerer"],
+        "3 Star": ["Flawless Rain Mill"]
+      }
+    },
+    {
+      "Name": "Pack of Crops",
+      "Recipes": [
+        {
+          "Inputs": ["Grain"]
+        },
+        {
+          "Inputs": ["Mushrooms"]
+        },
+        {
+          "Inputs": ["Roots"]
+        },
+        {
+          "Inputs": ["Vegetables"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Makeshift Post"],
+        "1 Star": ["Brewery"],
+        "2 Star": ["Granary"],
+        "3 Star": ["Flawless Brewery"]
+      }
+    },
+    {
+      "Name": "Pack of Luxury Goods",
+      "Recipes": [
+        {
+          "Inputs": ["Ale"]
+        },
+        {
+          "Inputs": ["Cosmetics"]
+        },
+        {
+          "Inputs": ["Incense"]
+        },
+        {
+          "Inputs": ["Scrolls"]
+        },
+        {
+          "Inputs": ["Training Gear"]
+        },
+        {
+          "Inputs": ["Wine"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Press", "Leatherworker"],
+        "2 Star": ["Carpenter"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Pack of Provisions",
+      "Recipes": [
+        {
+          "Inputs": ["Berries"]
+        },
+        {
+          "Inputs": ["Eggs"]
+        },
+        {
+          "Inputs": ["Herbs"]
+        },
+        {
+          "Inputs": ["Insects"]
+        },
+        {
+          "Inputs": ["Meat"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Makeshift Post"],
+        "1 Star": [],
+        "2 Star": ["Manufactory", "Provisioner"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Pack of Trade Goods",
+      "Recipes": [
+        {
+          "Inputs": ["Barrels"]
+        },
+        {
+          "Inputs": ["Flour"]
+        },
+        {
+          "Inputs": ["Oil"]
+        },
+        {
+          "Inputs": ["Pigment"]
+        },
+        {
+          "Inputs": ["Pottery"]
+        },
+        {
+          "Inputs": ["Waterskins"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Lumber Mill", "Weaver"],
+        "2 Star": ["Smithy"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Coal",
+      "Recipes": [
+        {
+          "Inputs": ["Wood"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Brick Oven"],
+        "2 Star": [],
+        "3 Star": ["Kiln"]
+      }
+    },
+    {
+      "Name": "Oil",
+      "Recipes": [
+        {
+          "Inputs": ["Grain"]
+        },
+        {
+          "Inputs": ["Meat"]
+        },
+        {
+          "Inputs": ["Plant Fiber"]
+        },
+        {
+          "Inputs": ["Vegetables"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Butcher"],
+        "3 Star": ["Druid's Hut", "Press"]
+      }
+    },
+    {
+      "Name": "Sea Marrow",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Wood",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Purging Fire",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Infused Tools",
+      "Recipes": [
+        {
+          "Inputs": ["SparkDew", "Planks", "Copper Bar"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": ["Finesmith"]
+      }
+    },
+    {
+      "Name": "Simple Tools",
+      "Recipes": [
+        {
+          "Inputs": ["Planks", "Copper Bar"]
+        },
+        {
+          "Inputs": ["Wood", "Crystalized Dew"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Scribe"],
+        "2 Star": ["Carpenter", "Smithy", "Tinkerer"],
+        "3 Star": ["Toolshop"]
+      }
+    },
+    {
+      "Name": "Berries",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Plantation"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Biscuits",
+      "Recipes": [
+        {
+          "Inputs": ["Flour", "Berries"]
+        },
+        {
+          "Inputs": ["Flour", "Herbs"]
+        },
+        {
+          "Inputs": ["Flour", "Roots"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Field Kitchen"],
+        "1 Star": ["Smelter"],
+        "2 Star": ["Cookhouse", "Apothecary", "Bakery"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Eggs",
+      "Recipes": [
+        {
+          "Inputs": ["Berries"]
+        },
+        {
+          "Inputs": ["Grain"]
+        },
+        {
+          "Inputs": ["Insects"]
+        },
+        {
+          "Inputs": ["Reed"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Ranch"],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Insects",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Jerky",
+      "Recipes": [
+        {
+          "Inputs": ["Insects", "Coal"]
+        },
+        {
+          "Inputs": ["Meat", "Oil"]
+        },
+        {
+          "Inputs": ["Meat", "Sea Marrow"]
+        },
+        {
+          "Inputs": ["Meat", "Wood"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Field Kitchen"],
+        "1 Star": ["Kiln", "Cellar"],
+        "2 Star": ["Butcher"],
+        "3 Star": ["Smokehouse"]
+      }
+    },
+    {
+      "Name": "Meat",
+      "Recipes": [
+        {
+          "Inputs": ["Grain"]
+        },
+        {
+          "Inputs": ["Plant Fiber"]
+        },
+        {
+          "Inputs": ["Reed"]
+        },
+        {
+          "Inputs": ["Vegetable"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Ranch"],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Mushrooms",
+      "Recipes": [
+        {
+          "Inputs": ["SparkDew"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Greenhouse"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Pickled Goods",
+      "Recipes": [
+        {
+          "Inputs": ["Barrels", "Berries"]
+        },
+        {
+          "Inputs": ["Pottery", "Mushrooms"]
+        },
+        {
+          "Inputs": ["Waterskins", "Roots"]
+        },
+        {
+          "Inputs": ["Vegetables"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Field Kitchen"],
+        "1 Star": ["Cellar", "Brewery", "Beanery"],
+        "2 Star": ["Granary"],
+        "3 Star": ["Flawless Brewery"]
+      }
+    },
+    {
+      "Name": "Pie",
+      "Recipes": [
+        {
+          "Inputs": ["Flour", "Berries"]
+        },
+        {
+          "Inputs": ["Flour", "Eggs"]
+        },
+        {
+          "Inputs": ["Flour", "Herbs"]
+        },
+        {
+          "Inputs": ["Flour", "Insects"]
+        },
+        {
+          "Inputs": ["Flour", "Meat"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Bakery"],
+        "2 Star": ["Furnace", "Bakery"],
+        "3 Star": ["Brick Oven"]
+      }
+    },
+    {
+      "Name": "Roots",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Herb Garden"],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Skewers",
+      "Recipes": [
+        {
+          "Inputs": ["Insects", "Berries"]
+        },
+        {
+          "Inputs": ["Jerky", "Eggs"]
+        },
+        {
+          "Inputs": ["Meat", "Roots"]
+        },
+        {
+          "Inputs": ["Mushrooms", "Vegetables"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Butcher", "Cookhouse"],
+        "2 Star": [],
+        "3 Star": ["Grill"]
+      }
+    },
+    {
+      "Name": "Vegetables",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Small Farm"],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Barrels",
+      "Recipes": [
+        {
+          "Inputs": ["Planks", "Copper Bar"]
+        },
+        {
+          "Inputs": ["Planks", "Crystalized Dew"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Toolshop"],
+        "2 Star": ["Artisan", "Provisioner"],
+        "3 Star": ["Cooperage"]
+      }
+    },
+    {
+      "Name": "Clay",
+      "Recipes": [
+        {
+          "Inputs": ["SparkDew"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Clay Pit"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Copper Bar",
+      "Recipes": [
+        {
+          "Inputs": ["Copper Ore", "Coal"]
+        },
+        {
+          "Inputs": ["Copper Ore", "Oil"]
+        },
+        {
+          "Inputs": ["Copper Ore", "Sea Marrow"]
+        },
+        {
+          "Inputs": ["Copper Ore", "Wood"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Stamping Mill", "Grill"],
+        "2 Star": ["Furnace"],
+        "3 Star": ["Smelter"]
+      }
+    },
+    {
+      "Name": "Copper Ore",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Stamping Mill", "Grill"],
+        "2 Star": ["Furnace"],
+        "3 Star": ["Smelter"]
+      }
+    },
+    {
+      "Name": "Crystalized Dew",
+      "Recipes": [
+        {
+          "Inputs": ["SparkDew", "Clay", "Herbs"]
+        },
+        {
+          "Inputs": ["SparkDew", "Stone", "Insects"]
+        },
+        {
+          "Inputs": ["SparkDew", "Stone", "Resin"]
+        },
+        {
+          "Inputs": ["SparkDew", "Stone", "Vegetables"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Smelter", "Beanery"],
+        "2 Star": ["Brickyard", "Alchemist's Hut", "Grove"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Flour",
+      "Recipes": [
+        {
+          "Inputs": ["Grain"]
+        },
+        {
+          "Inputs": ["Roots"]
+        },
+        {
+          "Inputs": ["Mushrooms"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Press"],
+        "2 Star": ["Supplier", "Stamping Mill", "Provisioner"],
+        "3 Star": ["Rain Mill", "Flawless Rain Mill"]
+      }
+    },
+    {
+      "Name": "Grain",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Small Farm"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Herbs",
+      "Recipes": [
+        {
+          "Inputs": ["SparkDew"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Greenhouse", "Herb Garden"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Leather",
+      "Recipes": [
+        {
+          "Inputs": ["Grain"]
+        },
+        {
+          "Inputs": ["Plant Fiber"]
+        },
+        {
+          "Inputs": ["Reed"]
+        },
+        {
+          "Inputs": ["Vegetables"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Ranch"],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Pigment",
+      "Recipes": [
+        {
+          "Inputs": ["Berries"]
+        },
+        {
+          "Inputs": ["Coal"]
+        },
+        {
+          "Inputs": ["Copper Ore"]
+        },
+        {
+          "Inputs": ["Insects"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Artisan", "Manufactory", "Cookhouse"],
+        "3 Star": ["Tinctury"]
+      }
+    },
+    {
+      "Name": "Pipes",
+      "Recipes": [
+        {
+          "Inputs": ["CopperBars"]
+        },
+        {
+          "Inputs": ["Crystalized Dew"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Crude Workstation", "Workshop"],
+        "1 Star": [],
+        "2 Star": ["Smithy", "Toolshop", ""],
+        "3 Star": [""]
+      }
+    },
+    {
+      "Name": "Plant Fiber",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Plantation"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Porridge",
+      "Recipes": [
+        {
+          "Inputs": ["Grain", "Drizzle Water"]
+        },
+        {
+          "Inputs": ["Vegetables", "Clearance Water"]
+        },
+        {
+          "Inputs": ["Mushrooms", "Storm Water"]
+        },
+        {
+          "Inputs": ["Herbs", "Storm Water"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Field Kitchen"],
+        "1 Star": [],
+        "2 Star": ["Distillery", "Teahouse"],
+        "3 Star": ["Beanery"]
+      }
+    },
+    {
+      "Name": "Pottery",
+      "Recipes": [
+        {
+          "Inputs": ["Clay", "Coal"]
+        },
+        {
+          "Inputs": ["Oil"]
+        },
+        {
+          "Inputs": ["Sea Marrow"]
+        },
+        {
+          "Inputs": ["Wood"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Smokehouse"],
+        "2 Star": ["Brickyard", "Bakery"],
+        "3 Star": ["Stamping Mill"]
+      }
+    },
+    {
+      "Name": "Reed",
+      "Recipes": [
+        {
+          "Inputs": ["SparkDew"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Clay Pit"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Tea",
+      "Recipes": [
+        {
+          "Inputs": ["Herbs", "Drizzle Water", "Crystalized Dew"]
+        },
+        {
+          "Inputs": ["Pigment", "Storm Water", "Copper Bar"]
+        },
+        {
+          "Inputs": ["Resin", "Clearance Water", "Copper Bar"]
+        },
+        {
+          "Inputs": ["Mushrooms", "Clearance Water", "Copper Bar"]
+        },
+        {
+          "Inputs": ["Roots", "Clearance Water", "Copper Bar"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Cooperage"],
+        "2 Star": ["Alchemist's Hut", "Apothecary"],
+        "3 Star": ["Flawless Cooperage", "Teahouse"]
+      }
+    },
+    {
+      "Name": "Resin",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Grove"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Sparkdew",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Stone",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Waterskins",
+      "Recipes": [
+        {
+          "Inputs": ["Leather", "Meat"]
+        },
+        {
+          "Inputs": ["Leather", "Oil"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Clothier", "Teahouse"],
+        "2 Star": ["Supplier"],
+        "3 Star": ["Leatherworker"]
+      }
+    },
+    {
+      "Name": "Ale",
+      "Recipes": [
+        {
+          "Inputs": ["Grain", "Barrels"]
+        },
+        {
+          "Inputs": ["Roots", "Pottery"]
+        },
+        {
+          "Inputs": ["Roots", "Waterskins"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Grill"],
+        "2 Star": ["Scribe", "Tinctury", "Distillery"],
+        "3 Star": ["Brewery", "Flawless Brewery"]
+      }
+    },
+    {
+      "Name": "Coats",
+      "Recipes": [
+        {
+          "Inputs": ["Fabric"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Druid's Hut"],
+        "2 Star": ["Artisan", "Cooperage"],
+        "3 Star": ["Clothier"]
+      }
+    },
+    {
+      "Name": "Cosmetics",
+      "Recipes": [
+        {
+          "Inputs": ["Eggs", "Herbs"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Cooperage"],
+        "2 Star": ["Apothecary", "Alchemist's Hut"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Incense",
+      "Recipes": [
+        {
+          "Inputs": ["Herbs", "Coal"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Smokehouse", "Druid's Hut", "Brick Oven"],
+        "2 Star": ["Apothecary"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Scrolls",
+      "Recipes": [
+        {
+          "Inputs": ["Pigment", "Leather"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Rain Mill", "Lumber Mill", "Clothier"],
+        "2 Star": [],
+        "3 Star": ["Scribe", "Flawless Rain Mill"]
+      }
+    },
+    {
+      "Name": "Training Gear",
+      "Recipes": [
+        {
+          "Inputs": ["Planks", "Copper Bar"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": ["Weaver"],
+        "2 Star": ["Manufactory", "Tinkerer", "Cooperage"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Wine",
+      "Recipes": [
+        {
+          "Inputs": ["Berries", "Barrels"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": ["Tinctury", "Alchemist's Hut", "Distillery"],
+        "3 Star": ["Cellar"]
+      }
+    },
+    {
+      "Name": "Bricks",
+      "Recipes": [
+        {
+          "Inputs": ["Clay"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Crude Workstation"],
+        "1 Star": ["Kiln"],
+        "2 Star": ["Furnace", "Workshop", "Brickyard"],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Fabric",
+      "Recipes": [
+        {
+          "Inputs": ["Leather"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Crude Workstation"],
+        "1 Star": [],
+        "2 Star": ["Granary", "Workshop", "Leatherworker"],
+        "3 Star": ["Weaver"]
+      }
+    },
+    {
+      "Name": "Parts",
+      "Recipes": [
+        {
+          "Inputs": ["Coal", "Clay"]
+        }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": ["Rainpunk Foundry"]
+      }
+    },
+    {
+      "Name": "Planks",
+      "Recipes": [
+        {
+          "Inputs": ["Wood"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Crude Workstation"],
+        "1 Star": [],
+        "2 Star": ["Workshop", "Carpenter", "Supplier"],
+        "3 Star": ["Lumber Mill"]
+      }
+    },
+    {
+      "Name": "Brawling",
+      "Recipes": [
+        {
+          "Inputs": ["Training Gear"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Clan Hall", "Explorers' Lodge", "Tea Doctor"],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Education",
+      "Recipes": [
+        {
+          "Inputs": ["Scrolls"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Forum", "Explorers' Lodge", "Holy Temple", "Temple"],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Leisure",
+      "Recipes": [
+        {
+          "Inputs": ["Ale"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Forum", "Tavern", "Monastery"],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Luxury",
+      "Recipes": [
+        {
+          "Inputs": ["Wine"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Guild House", "Holy Market", "Market", "Tavern"],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Religion",
+      "Recipes": [
+        {
+          "Inputs": ["Incense"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Clan Hall", "Holy Temple", "Temple", "Monastery"],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Treatment",
+      "Recipes": [
+        {
+          "Inputs": ["Tea"]
+        }
+      ],
+      "Buildings": {
+        "Collection": ["Bath House", "Holy Market", "Market", "Tea Doctor"],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Wildfire Essence",
+      "Recipes": [
+        { "Inputs": ["Coal", "Copper Bar", "Storm Water"] },
+        { "Inputs": ["Crystalized Dew", "Coal", "Clearance Water"] }
+      ],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": ["Rainpunk Foundry"]
+      }
+    },
+    {
+      "Name": "Storm Water",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Drizzle Water",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    },
+    {
+      "Name": "Clearance Water",
+      "Recipes": [],
+      "Buildings": {
+        "Collection": [],
+        "1 Star": [],
+        "2 Star": [],
+        "3 Star": []
+      }
+    }
+  ]
 }

@@ -1,11 +1,14 @@
 {
   "Coral Forest": [
+    "Storm Water",
+    "Drizzle Water",
+    "Clearance Water",
     "Wood",
     "Incense",
     "Stone",
-    "CrystalizedDew",
+    "Crystalized Dew",
     "Meat",
-    "PlantFiber",
+    "Plant Fiber",
     "Vegetables",
     "Reed",
     "Herbs",
@@ -13,8 +16,11 @@
     "Coal"
   ],
   "Cursed Royal Woodlands": [
+    "Storm Water",
+    "Drizzle Water",
+    "Clearance Water",
     "Wood",
-    "PlantFiber",
+    "Plant Fiber",
     "Roots",
     "Insects",
     "Grain",
@@ -22,10 +28,13 @@
     "Herbs",
     "Mushrooms",
     "Clay",
-    "SeaMarrow",
-    "CopperOre"
+    "Sea Marrow",
+    "Copper Ore"
   ],
   "Marshlands": [
+    "Storm Water",
+    "Drizzle Water",
+    "Clearance Water",
     "Wood",
     "Mushrooms",
     "Leather",
@@ -34,23 +43,29 @@
     "Stone",
     "Meat",
     "Coal",
-    "CopperOre"
+    "Copper Ore"
   ],
   "Royal Woodlands": [
+    "Storm Water",
+    "Drizzle Water",
+    "Clearance Water",
     "Wood",
     "Eggs",
-    "PlantFiber",
+    "Plant Fiber",
     "Resin",
     "Roots",
     "Vegetables",
     "Berries",
     "Mushrooms",
     "Clay",
-    "SeaMarrow",
-    "CopperOre",
+    "Sea Marrow",
+    "Copper Ore",
     "Meat"
   ],
   "Sealed Forest": [
+    "Storm Water",
+    "Drizzle Water",
+    "Clearance Water",
     "Wood",
     "Meat",
     "Leather",
@@ -59,21 +74,24 @@
     "Berries",
     "Mushrooms",
     "Clay",
-    "SeaMarrow",
+    "Sea Marrow",
     "Insects",
-    "CopperOre"
+    "Copper Ore"
   ],
   "Scarlet Orchard": [
+    "Storm Water",
+    "Drizzle Water",
+    "Clearance Water",
     "Wood",
-    "CopperOre",
+    "Copper Ore",
     "Pigment",
-    "PlantFiber",
+    "Plant Fiber",
     "Grain",
     "Roots",
     "Herbs",
     "Reed",
     "Berries",
-    "SeaMarrow",
+    "Sea Marrow",
     "Stone",
     "Eggs"
   ]
