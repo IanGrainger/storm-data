@@ -29,8 +29,13 @@ export const App: Component = () => {
     <div>
       <OptionsProvider>
         <Options />
-        <BiomeSelect signal={selectedBiomeSignal} />
-        <ResourcesSelect signal={selectedResourcesSignal} />
+        {/* <BiomeSelect signal={selectedBiomeSignal} /> */}
+        <ResourcesSelect
+          signal={selectedResourcesSignal}
+          biomeSignal={selectedBiomeSignal}
+        />
+        <BuildingSelect signal={selectedBuildingsSignal} />
+        <BuildingList showNamesAccr={selectedBuildingsSignal[0]} />
         <BlueprintSelect
           signal={selectedBlueprintsSignal}
           buildingsSignal={selectedBuildingsSignal}
@@ -40,9 +45,6 @@ export const App: Component = () => {
           highlightedBlueprintSignal={highlightedBlueprintSignal}
           buildingsSignal={selectedBuildingsSignal}
         />
-
-        <BuildingSelect signal={selectedBuildingsSignal} />
-        <BuildingList showNamesAccr={selectedBuildingsSignal[0]} />
         <GoodsList
           resourcesAccr={selectedResourcesSignal[0]}
           buildingsAccr={selectedBuildingsSignal[0]}

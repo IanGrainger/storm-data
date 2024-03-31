@@ -6,6 +6,13 @@
   background-color: white;
 }
 
+.biomeSelect .solid-select-control {
+  border: 1px solid lightgrey;
+  /* background-color: cornflowerblue; */
+  width: 38px;
+  height: 36px;
+  cursor: pointer;
+}
 /* .buildingList.solid-select-container {
   background-color: white;
 }

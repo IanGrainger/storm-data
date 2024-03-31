@@ -22,7 +22,7 @@ export const BlueprintList: Component<{
 
   return (
     <>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap justify-center">
         <For each={buildings}>
           {([buildingName, recipes]) => (
             <Show when={selectedBlueprints().includes(buildingName)}>
@@ -47,7 +47,9 @@ export const BlueprintList: Component<{
                     />
                   </Show>
                   <Show when={options.showBuildingNames}>
-                    <h2 class="text-xl text-green-700">{buildingName}</h2>
+                    <h2 class="text-xl font-bold text-gray-500">
+                      {buildingName}
+                    </h2>
                   </Show>
                 </div>
                 <ul class="list-none">
@@ -95,18 +97,20 @@ export const BlueprintList: Component<{
         </For>
       </div>
       <Show when={selectedBlueprints().length > 0}>
-        <button
-          onClick={() => {
-            setSelectedBuildings([
-              ...selectedBuildings(),
-              highlightedBlueprint(),
-            ]);
-            setSelectedBlueprints([]);
-            setHighlightedBlueprint('');
-          }}
-        >
-          ➕ Add to buildings
-        </button>
+        <div class="flex flex-row justify-center mb-6">
+          <button
+            onClick={() => {
+              setSelectedBuildings([
+                ...selectedBuildings(),
+                highlightedBlueprint(),
+              ]);
+              setSelectedBlueprints([]);
+              setHighlightedBlueprint('');
+            }}
+          >
+            ➕ Add to buildings
+          </button>
+        </div>
       </Show>
     </>
   );

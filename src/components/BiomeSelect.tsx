@@ -15,9 +15,9 @@ export const BiomeSelect: Component<{ signal: Signal<string> }> = (props) => {
   };
 
   return (
-    <div class="flex flex-row">
+    <div class="flex flex-row" title="Reset resources to biome">
       <Select
-        placeholder="Set resources to biome..."
+        placeholder="🔁"
         class="biomeSelect"
         onChange={onChange}
         initialValue={initialValue()}

@@ -73,22 +73,55 @@ export const GoodsList: Component<{
 
   return (
     <>
-      <div class="p-2">
-        <h2 class="mb-2 text-xl text-red-700">Possible goods</h2>
+      <div class="sm:flex sm:items-center mb-6">
+        <div class="sm:w-1/6">
+          <label
+            class="block text-gray-500 font-bold sm:text-right mb-1 sm:mb-0 pr-4"
+            for="inline-full-name"
+          >
+            Goods from buildings
+          </label>
+        </div>
+        <ul class="flex flex-wrap sm:w-5/6">
+          <For each={currentGoods()}>
+            {(productName) => <GoodsListItem productName={productName} />}
+          </For>
+        </ul>
+      </div>
+
+      <Show when={justNewGoodsWithBlueprint().length > 0}>
+        <div class="sm:flex sm:items-center mb-6">
+          <div class="sm:w-1/6">
+            <label
+              class="block text-gray-500 font-bold sm:text-right mb-1 sm:mb-0 pr-4"
+              for="inline-full-name"
+            >
+              Goods from blueprint
+            </label>
+          </div>
+          <ul class="flex flex-wrap sm:w-5/6">
+            <For each={justNewGoodsWithBlueprint()}>
+              {(productName) => <GoodsListItem productName={productName} />}
+            </For>
+          </ul>
+        </div>
+      </Show>
+      {/* <div class="p-2">
+        <h2 class="mb-2 text-gray-500 font-bold">From buildings</h2>
         <ul class="flex flex-wrap">
           <For each={currentGoods()}>
             {(productName) => <GoodsListItem productName={productName} />}
           </For>
         </ul>
         <Show when={justNewGoodsWithBlueprint().length > 0}>
-          <h2 class="mb-2 text-xl text-red-700">With selected blueprint</h2>
+          <h2 class="mb-2 text-gray-500 font-bold">With blueprint</h2>
           <ul class="flex flex-wrap">
             <For each={justNewGoodsWithBlueprint()}>
               {(productName) => <GoodsListItem productName={productName} />}
             </For>
           </ul>
         </Show>
-      </div>
+      </div> */}
     </>
   );
 };
