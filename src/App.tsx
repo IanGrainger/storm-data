@@ -70,7 +70,13 @@ export const App: Component = () => {
               </a>
             </div>
           </div>
-          <Options optionsOpenSignal={optionsOpenSignal} />
+          <Options
+            optionsOpenSignal={optionsOpenSignal}
+            selectedEssentialBuildingsSignal={selectedEssentialBuildingsSignal}
+            selectedBuildingsSignal={selectedBuildingsSignal}
+            selectedBlueprintsSignal={selectedBlueprintsSignal}
+            selectedBiomeSignal={selectedBiomeSignal}
+          />
         </div>
         {/* <BiomeSelect signal={selectedBiomeSignal} /> */}
         <ResourcesSelect
