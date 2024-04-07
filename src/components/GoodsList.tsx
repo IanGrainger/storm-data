@@ -79,7 +79,7 @@ export const GoodsList: Component<{
             class="block text-gray-500 font-bold sm:text-right mb-1 sm:mb-0 pr-4"
             for="inline-full-name"
           >
-            Goods from buildings
+            From buildings
           </label>
         </div>
         <ul class="flex flex-wrap sm:w-5/6">
@@ -96,7 +96,7 @@ export const GoodsList: Component<{
               class="block text-gray-500 font-bold sm:text-right mb-1 sm:mb-0 pr-4"
               for="inline-full-name"
             >
-              Goods from blueprint
+              Including blueprint
             </label>
           </div>
           <ul class="flex flex-wrap sm:w-5/6">

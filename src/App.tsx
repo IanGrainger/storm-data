@@ -10,20 +10,23 @@ import { ResourcesSelect } from './components/ResourcesSelect';
 import biomes from './data/biomes.json';
 import { OptionsProvider } from './providers/OptionsProvider';
 import { OptionsButton } from './components/OptionsButton';
+import { makePersisted } from '@solid-primitives/storage';
 
 export const App: Component = () => {
   const selectedBiomeSignal = createSignal('');
   const optionsOpenSignal = createSignal(false);
-  const selectedResourcesSignal = createSignal([] as string[]);
-  const selectedBuildingsSignal = createSignal([] as string[]);
-  const selectedBlueprintsSignal = createSignal([] as string[]);
+  const selectedResourcesSignal = makePersisted(createSignal([] as string[]));
+  const selectedBuildingsSignal = makePersisted(createSignal([] as string[]));
+  const selectedBlueprintsSignal = makePersisted(createSignal([] as string[]));
   const highlightedBlueprintSignal = createSignal('');
 
   createEffect(() => {
-    const selectedBiomeName = selectedBiomeSignal[0]();
-    const selectedResources = biomes[selectedBiomeName] || [];
+    const [selectedBiomeName, setSelectedBiomeName] = selectedBiomeSignal;
+    if (selectedBiomeName() === '') return;
+    const selectedResources = biomes[selectedBiomeName()] || [];
     const setSelectedResources = selectedResourcesSignal[1];
     setSelectedResources(selectedResources);
+    setSelectedBiomeName('');
   });
 
   return (

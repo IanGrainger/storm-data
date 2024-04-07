@@ -1,3 +1,4 @@
+import { makePersisted } from '@solid-primitives/storage';
 import { createContext, useContext } from 'solid-js';
 import { createStore } from 'solid-js/store';
 
@@ -12,7 +13,7 @@ type Options = {
 };
 
 const makeOptionsContext = (initialOptions: Options) => {
-  const [options, setOptions] = createStore(initialOptions);
+  const [options, setOptions] = makePersisted(createStore(initialOptions));
   return [options, setOptions] as const;
 };
 
@@ -37,6 +38,7 @@ export function OptionsProvider(props) {
     </OptionsContext.Provider>
   );
 }
+
 export const useOptionsContext = () => {
   const countName = useContext(OptionsContext);
   if (!countName) {
