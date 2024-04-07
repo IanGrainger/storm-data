@@ -38,7 +38,16 @@ export const App: Component = () => {
                 target="_blank"
                 href="https://docs.google.com/spreadsheets/d/14gePuyN0mRsm6OU9tPmq4GC8djnLIs6VkURw-xDsThI"
               >
-                AngryPidgeon's Cornerstone Tier Lists
+                Cornerstone Tier Lists
+              </a>
+            </div>
+            <div class="p-2">
+              <a
+                class="underline"
+                target="_blank"
+                href="https://docs.google.com/spreadsheets/d/1vRGSql3Lu5xy9Dwqy7rPsWfEWarxdcKxuW3IqNWosvk/edit"
+              >
+                Building Tier List
               </a>
             </div>
           </div>
