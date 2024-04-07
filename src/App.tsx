@@ -1,18 +1,19 @@
 import '@thisbeyond/solid-select/style.css';
-import { createSignal, type Component, createEffect, Show } from 'solid-js';
+import { createEffect, createSignal, type Component } from 'solid-js';
+import { BlueprintList } from './components/BlueprintList';
+import { BlueprintSelect } from './components/BlueprintSelect';
 import { BuildingList } from './components/BuildingList';
 import { BuildingSelect } from './components/BuildingSelect';
-import { Options } from './components/Options';
-import { OptionsProvider } from './providers/OptionsProvider';
-import { ResourcesSelect } from './components/ResourcesSelect';
-import { BiomeSelect } from './components/BiomeSelect';
-import biomes from './data/biomes.json';
 import { GoodsList } from './components/GoodsList';
-import { BlueprintSelect } from './components/BlueprintSelect';
-import { BlueprintList } from './components/BlueprintList';
+import { Options } from './components/Options';
+import { ResourcesSelect } from './components/ResourcesSelect';
+import biomes from './data/biomes.json';
+import { OptionsProvider } from './providers/OptionsProvider';
+import { OptionsButton } from './components/OptionsButton';
 
 export const App: Component = () => {
   const selectedBiomeSignal = createSignal('');
+  const optionsOpenSignal = createSignal(false);
   const selectedResourcesSignal = createSignal([] as string[]);
   const selectedBuildingsSignal = createSignal([] as string[]);
   const selectedBlueprintsSignal = createSignal([] as string[]);
@@ -28,7 +29,21 @@ export const App: Component = () => {
   return (
     <div>
       <OptionsProvider>
-        <Options />
+        <div class="mb-2">
+          <div class="flex flex-row space-x-3 bg-slate-100 text-nowrap overflow-x-auto">
+            <OptionsButton optionsOpenSignal={optionsOpenSignal} />
+            <div class="p-2">
+              <a
+                class="underline"
+                target="_blank"
+                href="https://docs.google.com/spreadsheets/d/14gePuyN0mRsm6OU9tPmq4GC8djnLIs6VkURw-xDsThI"
+              >
+                AngryPidgeon's Cornerstone Tier Lists
+              </a>
+            </div>
+          </div>
+          <Options optionsOpenSignal={optionsOpenSignal} />
+        </div>
         {/* <BiomeSelect signal={selectedBiomeSignal} /> */}
         <ResourcesSelect
           signal={selectedResourcesSignal}

@@ -1,19 +1,15 @@
-import { Component, Show, createSignal } from 'solid-js';
+import { Component, Show, Signal } from 'solid-js';
 import { useOptionsContext } from 'src/providers/OptionsProvider';
 
-export const Options: Component = () => {
-  const [optionsOpen, setOptionsOpen] = createSignal(false);
+export const Options: Component<{ optionsOpenSignal: Signal<boolean> }> = (
+  props
+) => {
+  const [optionsOpen] = props.optionsOpenSignal;
   const [options, setOptions] = useOptionsContext();
   return (
     <>
-      <Show when={!optionsOpen()}>
-        <button onclick={() => setOptionsOpen(true)}>⚙️ Options</button>
-      </Show>
       <Show when={optionsOpen()}>
-        <div class="bg-slate-200">
-          <h1>
-            <button onclick={() => setOptionsOpen(false)}>✖️ Options</button>
-          </h1>
+        <div class="bg-slate-200 py-2">
           <div class="flex flex-wrap space-x-2">
             <div>
               <label>

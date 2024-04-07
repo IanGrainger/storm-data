@@ -108,7 +108,7 @@ export const BlueprintList: Component<{
               setHighlightedBlueprint('');
             }}
           >
-            ➕ Add to buildings
+            ➕ Pick
           </button>
         </div>
       </Show>
