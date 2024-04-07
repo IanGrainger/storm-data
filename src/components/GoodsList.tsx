@@ -106,22 +106,6 @@ export const GoodsList: Component<{
           </ul>
         </div>
       </Show>
-      {/* <div class="p-2">
-        <h2 class="mb-2 text-gray-500 font-bold">From buildings</h2>
-        <ul class="flex flex-wrap">
-          <For each={currentGoods()}>
-            {(productName) => <GoodsListItem productName={productName} />}
-          </For>
-        </ul>
-        <Show when={justNewGoodsWithBlueprint().length > 0}>
-          <h2 class="mb-2 text-gray-500 font-bold">With blueprint</h2>
-          <ul class="flex flex-wrap">
-            <For each={justNewGoodsWithBlueprint()}>
-              {(productName) => <GoodsListItem productName={productName} />}
-            </For>
-          </ul>
-        </Show>
-      </div> */}
     </>
   );
 };
