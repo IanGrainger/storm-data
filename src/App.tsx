@@ -15,9 +15,19 @@ import { makePersisted } from '@solid-primitives/storage';
 export const App: Component = () => {
   const selectedBiomeSignal = createSignal('');
   const optionsOpenSignal = createSignal(false);
-  const selectedResourcesSignal = makePersisted(createSignal([] as string[]));
-  const selectedBuildingsSignal = makePersisted(createSignal([] as string[]));
-  const selectedBlueprintsSignal = makePersisted(createSignal([] as string[]));
+  const selectedResourcesSignal = makePersisted(createSignal([] as string[]), {
+    name: 'selectedResources',
+  });
+  const selectedEssentialBuildingsSignal = makePersisted(
+    createSignal([] as string[]),
+    { name: 'selectedEssentialBuildings' }
+  );
+  const selectedBuildingsSignal = makePersisted(createSignal([] as string[]), {
+    name: 'selectedBuildings',
+  });
+  const selectedBlueprintsSignal = makePersisted(createSignal([] as string[]), {
+    name: 'selectedBlueprints',
+  });
   const highlightedBlueprintSignal = createSignal('');
 
   createEffect(() => {
@@ -28,6 +38,12 @@ export const App: Component = () => {
     setSelectedResources(selectedResources);
     setSelectedBiomeName('');
   });
+
+  const allBuildings = () => {
+    const [selectedBuildings] = selectedBuildingsSignal;
+    const [selectedEssentialBuildings] = selectedEssentialBuildingsSignal;
+    return selectedBuildings().concat(selectedEssentialBuildings());
+  };
 
   return (
     <div>
@@ -61,8 +77,16 @@ export const App: Component = () => {
           signal={selectedResourcesSignal}
           biomeSignal={selectedBiomeSignal}
         />
-        <BuildingSelect signal={selectedBuildingsSignal} />
-        <BuildingList showNamesAccr={selectedBuildingsSignal[0]} />
+        <BuildingSelect
+          signal={selectedEssentialBuildingsSignal}
+          allBuildings={allBuildings}
+          title="Essentials"
+        />
+        <BuildingSelect
+          allBuildings={allBuildings}
+          signal={selectedBuildingsSignal}
+        />
+        <BuildingList selectedBuildingsAccr={allBuildings} />
         <BlueprintSelect
           signal={selectedBlueprintsSignal}
           buildingsSignal={selectedBuildingsSignal}
@@ -74,7 +98,7 @@ export const App: Component = () => {
         />
         <GoodsList
           resourcesAccr={selectedResourcesSignal[0]}
-          buildingsAccr={selectedBuildingsSignal[0]}
+          buildingsAccr={allBuildings}
           blueprintAccr={highlightedBlueprintSignal[0]}
         />
       </OptionsProvider>

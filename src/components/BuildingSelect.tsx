@@ -1,10 +1,12 @@
 import { createOptions, Select } from '@thisbeyond/solid-select';
-import { Component, Signal } from 'solid-js';
+import { Accessor, Component, Signal } from 'solid-js';
 import recipesByBuilding from 'src/data/recipesByBuilding.json';
 
-export const BuildingSelect: Component<{ signal: Signal<string[]> }> = (
-  props
-) => {
+export const BuildingSelect: Component<{
+  signal: Signal<string[]>;
+  allBuildings: Accessor<string[]>;
+  title?: string;
+}> = (props) => {
   const buildingNames = Object.keys(recipesByBuilding);
   const [selectedValues, setSelectedValues] = props.signal;
 
@@ -13,7 +15,7 @@ export const BuildingSelect: Component<{ signal: Signal<string[]> }> = (
   };
 
   const buildingOptions = createOptions(buildingNames, {
-    disable: (value: string) => selectedValues().includes(value),
+    disable: (value: string) => props.allBuildings().includes(value),
   });
 
   return (
@@ -23,7 +25,7 @@ export const BuildingSelect: Component<{ signal: Signal<string[]> }> = (
           class="block text-gray-500 font-bold sm:text-right mb-1 sm:mb-0 pr-4"
           for="inline-full-name"
         >
-          Buildings
+          {props.title || 'Buildings'}
         </label>
       </div>
       <div class="flex flex-row sm:w-5/6 items-center space-x-1">

@@ -7,9 +7,9 @@ import {
   makeResourceIconPart,
 } from '../functions/IconNameUtils';
 
-export const BuildingList: Component<{ showNamesAccr: Accessor<string[]> }> = (
-  props
-) => {
+export const BuildingList: Component<{
+  selectedBuildingsAccr: Accessor<string[]>;
+}> = (props) => {
   const [options] = useOptionsContext();
 
   const buildings = Object.entries(recipesByBuilding);
@@ -19,7 +19,7 @@ export const BuildingList: Component<{ showNamesAccr: Accessor<string[]> }> = (
       <div class="flex flex-wrap">
         <For each={buildings}>
           {([buildingName, recipes]) => (
-            <Show when={props.showNamesAccr().includes(buildingName)}>
+            <Show when={props.selectedBuildingsAccr().includes(buildingName)}>
               <div class="bg-gray-100 p-4 m-4 rounded-lg flex flex-col items-center">
                 <div class="mb-2 flex flex-col items-center">
                   <Show when={options.showBuildingIcons}>
