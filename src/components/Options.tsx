@@ -237,6 +237,10 @@ function getBiomeNameFromSaveText(blobText: string) {
     biomeNameOpeningQuoteLoc + 1,
     biomeNameClosingQuoteLoc
   );
+
+  if (biomeName === 'Moorlands') {
+    return 'Scarlet Orchard';
+  }
   return biomeName;
 }
 
