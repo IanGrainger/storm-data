@@ -1,4 +1,4 @@
-import { Component, Show, Signal, createSignal } from 'solid-js';
+import { Component, Show, Signal } from 'solid-js';
 import { useOptionsContext } from 'src/providers/OptionsProvider';
 import recipesByBuilding from 'src/data/recipesByBuilding.json';
 import biomes from 'src/data/biomes.json';
@@ -34,8 +34,10 @@ export const Options: Component<{
       const [, setSelectedEssentialBuildings] =
         props.selectedEssentialBuildingsSignal;
       setSelectedEssentialBuildings(newEssentialBuildings);
-      const newBuildings = buildingNames.filter((building) =>
-        saveContentJson.buildings.includes(building)
+      const newBuildings = buildingNames.filter(
+        (building) =>
+          saveContentJson.buildings.includes(building) &&
+          !saveContentJson.essentialBuildings.includes(building)
       );
       const [, setSelectedBuildings] = props.selectedBuildingsSignal;
       setSelectedBuildings(newBuildings);
