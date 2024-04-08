@@ -9,6 +9,7 @@ export const Options: Component<{
   selectedBuildingsSignal: Signal<string[]>;
   selectedBlueprintsSignal: Signal<string[]>;
   selectedBiomeSignal: Signal<string>;
+  selectedRacesSignal: Signal<string[]>;
 }> = (props) => {
   const [optionsOpen] = props.optionsOpenSignal;
   const [options, setOptions] = useOptionsContext();
@@ -53,6 +54,11 @@ export const Options: Component<{
       if (biomes[biomeName]) {
         setSelectedBiome(biomeName);
       }
+
+      const races = getRacesFromSaveText(blobText);
+      const [, setSelectedRaces] = props.selectedRacesSignal;
+      // todo: check these names!?
+      setSelectedRaces(races);
     }
   };
   return (
@@ -230,4 +236,21 @@ function getBiomeNameFromSaveText(blobText: string) {
     biomeNameClosingQuoteLoc
   );
   return biomeName;
+}
+
+function getRacesFromSaveText(saveText: string) {
+  const conditionsLoc = saveText.indexOf('"conditions"');
+  const racesStr = '"races"';
+  const racesLoc = saveText.indexOf(racesStr, conditionsLoc);
+  const openSquareBracketLoc = saveText.indexOf('[', racesLoc);
+  const closeSquareBracketLoc = saveText.indexOf(']', racesLoc);
+  const racesSegment = saveText.slice(
+    openSquareBracketLoc,
+    closeSquareBracketLoc + 1
+  );
+  console.log('races', racesSegment);
+  const racesJson = JSON.parse(racesSegment);
+  console.log('racesJSON', racesJson);
+
+  return racesJson as string[];
 }

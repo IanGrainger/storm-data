@@ -11,6 +11,7 @@ import biomes from './data/biomes.json';
 import { OptionsProvider } from './providers/OptionsProvider';
 import { OptionsButton } from './components/OptionsButton';
 import { makePersisted } from '@solid-primitives/storage';
+import { RacesSelect } from './components/RacesSelect';
 
 export const App: Component = () => {
   const selectedBiomeSignal = createSignal('');
@@ -24,6 +25,9 @@ export const App: Component = () => {
   );
   const selectedBuildingsSignal = makePersisted(createSignal([] as string[]), {
     name: 'selectedBuildings',
+  });
+  const selectedRacesSignal = makePersisted(createSignal([] as string[]), {
+    name: 'selectedRaces',
   });
   const selectedBlueprintsSignal = makePersisted(createSignal([] as string[]), {
     name: 'selectedBlueprints',
@@ -76,8 +80,11 @@ export const App: Component = () => {
             selectedBuildingsSignal={selectedBuildingsSignal}
             selectedBlueprintsSignal={selectedBlueprintsSignal}
             selectedBiomeSignal={selectedBiomeSignal}
+            selectedRacesSignal={selectedRacesSignal}
           />
         </div>
+
+        <RacesSelect signal={selectedRacesSignal} />
         {/* <BiomeSelect signal={selectedBiomeSignal} /> */}
         <ResourcesSelect
           signal={selectedResourcesSignal}
