@@ -21,88 +21,35 @@ export const Options: Component<{
       }
       const blob = await item.getType('text/plain');
       const blobText = await blob.text();
-      const contentStr = '"content"';
-      const contentLoc = blobText.indexOf(contentStr);
-      const curlyAfterContentLoc = blobText.indexOf('{', contentLoc);
-      const endingCurlyBraceLoc = blobText.indexOf(
-        '  },',
-        curlyAfterContentLoc
-      );
-
-      if (
-        contentLoc === -1 ||
-        curlyAfterContentLoc === -1 ||
-        endingCurlyBraceLoc === -1
-      ) {
-        throw new Error(
-          'Unable to find "content": {} section in clipboard data.'
-        );
-      }
-      const contentSegment = blobText.slice(
-        curlyAfterContentLoc,
-        endingCurlyBraceLoc + 3
-      );
-      const saveContentJson = JSON.parse(contentSegment);
 
       const buildingNames = Object.keys(recipesByBuilding);
 
-      const [, setSelectedEssentialBuildings] =
-        props.selectedEssentialBuildingsSignal;
-      const [, setSelectedBuildings] = props.selectedBuildingsSignal;
-      const [, setSelectedBlueprints] = props.selectedBlueprintsSignal;
-      const [, setSelectedBiome] = props.selectedBiomeSignal;
-      // get the buildings from the json file
-      // if any of them exist in "essentialBuildings", reset the essentialBuildings value to the new buildings
+      const saveContentJson = getContentSectionFromSaveText(blobText);
+
       const newEssentialBuildings = buildingNames.filter((building) =>
         saveContentJson.essentialBuildings.includes(building)
       );
 
+      const [, setSelectedEssentialBuildings] =
+        props.selectedEssentialBuildingsSignal;
       setSelectedEssentialBuildings(newEssentialBuildings);
       const newBuildings = buildingNames.filter((building) =>
         saveContentJson.buildings.includes(building)
       );
+      const [, setSelectedBuildings] = props.selectedBuildingsSignal;
       setSelectedBuildings(newBuildings);
 
-      // get current blueprint pick
-      const reputationRewardsSectionLoc = blobText.indexOf(
-        '"reputationRewards"'
-      );
-      const currentPicksSectionLoc = blobText.indexOf(
-        '"currentPick"',
-        reputationRewardsSectionLoc
-      );
-      const currentPicksOpeningCurlyLoc = blobText.indexOf(
-        '{',
-        currentPicksSectionLoc
-      );
-      const currentPicksClosingCurlyLoc = blobText.indexOf(
-        '\n  }',
-        currentPicksOpeningCurlyLoc
-      );
-      const currentPicksSegment = blobText.slice(
-        currentPicksOpeningCurlyLoc,
-        currentPicksClosingCurlyLoc + 3
-      );
-      const currentPicksJson = JSON.parse(currentPicksSegment);
+      const currentPicksJson = getCurrentPicksFromSaveText(blobText);
       const newBlueprints = buildingNames.filter((building) =>
-        currentPicksJson.options.some((o) => o.building === building)
+        currentPicksJson.options.some(
+          (o: { building: string }) => o.building === building
+        )
       );
+      const [, setSelectedBlueprints] = props.selectedBlueprintsSignal;
       setSelectedBlueprints(newBlueprints);
 
-      const biomeNameStr = '"biomeName"';
-      const biomeNameLoc = blobText.indexOf(biomeNameStr);
-      const biomeNameOpeningQuoteLoc = blobText.indexOf(
-        '"',
-        biomeNameLoc + biomeNameStr.length
-      );
-      const biomeNameClosingQuoteLoc = blobText.indexOf(
-        '"',
-        biomeNameOpeningQuoteLoc + 1
-      );
-      const biomeName = blobText.slice(
-        biomeNameOpeningQuoteLoc + 1,
-        biomeNameClosingQuoteLoc
-      );
+      const biomeName = getBiomeNameFromSaveText(blobText);
+      const [, setSelectedBiome] = props.selectedBiomeSignal;
       if (biomes[biomeName]) {
         setSelectedBiome(biomeName);
       }
@@ -223,3 +170,64 @@ export const Options: Component<{
     </>
   );
 };
+
+function getContentSectionFromSaveText(saveText: string) {
+  const contentStr = '"content"';
+  const contentLoc = saveText.indexOf(contentStr);
+  const curlyAfterContentLoc = saveText.indexOf('{', contentLoc);
+  const endingCurlyBraceLoc = saveText.indexOf('  },', curlyAfterContentLoc);
+
+  if (
+    contentLoc === -1 ||
+    curlyAfterContentLoc === -1 ||
+    endingCurlyBraceLoc === -1
+  ) {
+    throw new Error('Unable to find "content": {} section in clipboard data.');
+  }
+  const contentSegment = saveText.slice(
+    curlyAfterContentLoc,
+    endingCurlyBraceLoc + 3
+  );
+  const saveContentJson = JSON.parse(contentSegment);
+  return saveContentJson;
+}
+
+function getCurrentPicksFromSaveText(saveText: string) {
+  const reputationRewardsSectionLoc = saveText.indexOf('"reputationRewards"');
+  const currentPicksSectionLoc = saveText.indexOf(
+    '"currentPick"',
+    reputationRewardsSectionLoc
+  );
+  const currentPicksOpeningCurlyLoc = saveText.indexOf(
+    '{',
+    currentPicksSectionLoc
+  );
+  const currentPicksClosingCurlyLoc = saveText.indexOf(
+    '\n  }',
+    currentPicksOpeningCurlyLoc
+  );
+  const currentPicksSegment = saveText.slice(
+    currentPicksOpeningCurlyLoc,
+    currentPicksClosingCurlyLoc + 3
+  );
+  const currentPicksJson = JSON.parse(currentPicksSegment);
+  return currentPicksJson;
+}
+
+function getBiomeNameFromSaveText(blobText: string) {
+  const biomeNameStr = '"biomeName"';
+  const biomeNameLoc = blobText.indexOf(biomeNameStr);
+  const biomeNameOpeningQuoteLoc = blobText.indexOf(
+    '"',
+    biomeNameLoc + biomeNameStr.length
+  );
+  const biomeNameClosingQuoteLoc = blobText.indexOf(
+    '"',
+    biomeNameOpeningQuoteLoc + 1
+  );
+  const biomeName = blobText.slice(
+    biomeNameOpeningQuoteLoc + 1,
+    biomeNameClosingQuoteLoc
+  );
+  return biomeName;
+}
