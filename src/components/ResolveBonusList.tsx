@@ -45,7 +45,7 @@ export const ResolveBonusList: Component<{
                       <>
                         <div>
                           <img
-                            src={`./icons/races/84px-${race}_circle.png`}
+                            src={`./icons/races/60px-${race}_circle.png`}
                             alt={race}
                             height={20}
                             width={20}
@@ -86,7 +86,7 @@ export const ResolveBonusList: Component<{
                         <>
                           <div>
                             <img
-                              src={`./icons/races/84px-${race}_circle.png`}
+                              src={`./icons/races/60px-${race}_circle.png`}
                               alt={race}
                               height={20}
                               width={20}
