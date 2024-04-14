@@ -12,6 +12,8 @@ import { OptionsProvider } from './providers/OptionsProvider';
 import { OptionsButton } from './components/OptionsButton';
 import { makePersisted } from '@solid-primitives/storage';
 import { RacesSelect } from './components/RacesSelect';
+import recipesByBuilding from './data/recipesByBuilding.json';
+import { ResolveBonusList } from './components/ResolveBonusList';
 
 export const App: Component = () => {
   const selectedBiomeSignal = createSignal('');
@@ -48,6 +50,70 @@ export const App: Component = () => {
     const [selectedEssentialBuildings] = selectedEssentialBuildingsSignal;
     return selectedBuildings().concat(selectedEssentialBuildings());
   };
+
+  function removeDups<T>(arr: T[]): T[] {
+    return [...new Set(arr)];
+  }
+  const getGoods = (
+    buildings: string[],
+    resources: string[],
+    prevResources: string[] = null
+  ): string[] => {
+    // for each building, if one or more of each ingredient is in the resources list, add the output to the list
+    // todo: also include outputs from other buildings that are inputs to the current building
+    const withDupes = Object.keys(recipesByBuilding)
+      .filter((building) => buildings.includes(building))
+      .flatMap((building) =>
+        recipesByBuilding[building].filter((recipe) => {
+          const ingredients = [
+            recipe.Ingredient_1,
+            recipe.Ingredient_2 || null,
+            recipe.Ingredient_3 || null,
+          ].filter((x) => x);
+          // console.log(
+          //   'recipe',
+          //   Object.keys(recipe.Product),
+          //   'ingredients',
+          //   ingredients
+          // );
+          return ingredients.every((ingredient) =>
+            resources.some((resource) =>
+              Object.keys(ingredient).includes(resource)
+            )
+          );
+        })
+      )
+      .flatMap((recipe) => Object.keys(recipe.Product));
+    const dedup = removeDups(withDupes);
+
+    // todo: calling this recursively until there's no new resources doesn't _seem_ very efficient!
+    if (prevResources === null || dedup.length > prevResources.length) {
+      const nextLevel = getGoods(
+        buildings,
+        [...resources, ...dedup],
+        resources
+      );
+      return removeDups([...dedup, ...nextLevel]);
+    }
+    return dedup;
+  };
+
+  function currentGoods() {
+    return getGoods(allBuildings(), selectedResourcesSignal[0]());
+  }
+
+  function goodsWithBlueprint() {
+    return getGoods(
+      [...allBuildings(), highlightedBlueprintSignal[0]()],
+      selectedResourcesSignal[0]()
+    );
+  }
+
+  function justNewGoodsWithBlueprint() {
+    return goodsWithBlueprint().filter(
+      (good) => !currentGoods().includes(good)
+    );
+  }
 
   return (
     <div>
@@ -111,9 +177,13 @@ export const App: Component = () => {
           buildingsSignal={selectedBuildingsSignal}
         />
         <GoodsList
-          resourcesAccr={selectedResourcesSignal[0]}
-          buildingsAccr={allBuildings}
-          blueprintAccr={highlightedBlueprintSignal[0]}
+          currentGoods={currentGoods}
+          justNewGoodsWithBlueprint={justNewGoodsWithBlueprint}
+        />
+        <ResolveBonusList
+          currentGoods={currentGoods}
+          justNewGoodsWithBlueprint={justNewGoodsWithBlueprint}
+          selectedRacesAccr={selectedRacesSignal[0]}
         />
       </OptionsProvider>
     </div>
