@@ -2362,51 +2362,48 @@
         "Meat": 6,
         "Eggs": 6
       }
-    }],
-  "Bath House": [
-    {"Building": "Bath House", "Product": {"Treatment (★)": 1}}
+    }
   ],
+  "Bath House": [{ "Building": "Bath House", "Product": { "Treatment": 1 } }],
   "Clan Hall": [
-    {"Building": "Clan Hall", "Product": {"Brawling (★)": 1}},
-    {"Building": "Clan Hall", "Product": {"Religion (★)": 1}}
+    { "Building": "Clan Hall", "Product": { "Brawling": 1 } },
+    { "Building": "Clan Hall", "Product": { "Religion": 1 } }
   ],
   "Explorers' Lodge": [
-    {"Building": "Explorers' Lodge", "Product": {"Brawling (★)": 1}},
-    {"Building": "Explorers' Lodge", "Product": {"Education (★)": 1}}
+    { "Building": "Explorers' Lodge", "Product": { "Brawling": 1 } },
+    { "Building": "Explorers' Lodge", "Product": { "Education": 1 } }
   ],
   "Forum": [
-    {"Building": "Forum", "Product": {"Leisure (★)": 1}},
-    {"Building": "Forum", "Product": {"Education (★)": 1}}
+    { "Building": "Forum", "Product": { "Leisure": 1 } },
+    { "Building": "Forum", "Product": { "Education": 1 } }
   ],
-  "Guild House": [
-    {"Building": "Guild House", "Product": {"Luxury (★)": 1}}
-  ],
+  "Guild House": [{ "Building": "Guild House", "Product": { "Luxury": 1 } }],
   "Market": [
-    {"Building": "Market", "Product": {"Luxury (★)": 1}},
-    {"Building": "Market", "Product": {"Treatment (★)": 1}}
+    { "Building": "Market", "Product": { "Luxury": 1 } },
+    { "Building": "Market", "Product": { "Treatment": 1 } }
   ],
   "Holy Market": [
-    {"Building": "Holy Market", "Product": {"Luxury (★)": 1}},
-    {"Building": "Holy Market", "Product": {"Treatment (★)": 1}}
+    { "Building": "Holy Market", "Product": { "Luxury": 1 } },
+    { "Building": "Holy Market", "Product": { "Treatment": 1 } }
   ],
   "Monastery": [
-    {"Building": "Monastery", "Product": {"Religion (★)": 1}},
-    {"Building": "Monastery", "Product": {"Leisure (★)": 1}}
+    { "Building": "Monastery", "Product": { "Religion": 1 } },
+    { "Building": "Monastery", "Product": { "Leisure": 1 } }
   ],
   "Tavern": [
-    {"Building": "Tavern", "Product": {"Leisure (★)": 1}},
-    {"Building": "Tavern", "Product": {"Luxury (★)": 1}}
+    { "Building": "Tavern", "Product": { "Leisure": 1 } },
+    { "Building": "Tavern", "Product": { "Luxury": 1 } }
   ],
   "Tea Doctor": [
-    {"Building": "Tea Doctor", "Product": {"Treatment (★)": 1}},
-    {"Building": "Tea Doctor", "Product": {"Brawling (★)": 1}}
+    { "Building": "Tea Doctor", "Product": { "Treatment": 1 } },
+    { "Building": "Tea Doctor", "Product": { "Brawling": 1 } }
   ],
   "Temple": [
-    {"Building": "Temple", "Product": {"Religion (★)": 1}},
-    {"Building": "Temple", "Product": {"Education (★)": 1}}
+    { "Building": "Temple", "Product": { "Religion": 1 } },
+    { "Building": "Temple", "Product": { "Education": 1 } }
   ],
   "Holy Temple": [
-    {"Building": "Holy Temple", "Product": {"Religion (★)": 1}},
-    {"Building": "Holy Temple", "Product": {"Education (★)": 1}}
+    { "Building": "Holy Temple", "Product": { "Religion": 1 } },
+    { "Building": "Holy Temple", "Product": { "Education": 1 } }
   ]
 }
