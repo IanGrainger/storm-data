@@ -4,6 +4,7 @@ import recipesByBuilding from 'src/data/recipesByBuilding.json';
 
 export const BlueprintSelect: Component<{
   signal: Signal<string[]>;
+  allBuildings: () => string[];
   buildingsSignal: Signal<string[]>;
 }> = (props) => {
   const buildingNames = Object.keys(recipesByBuilding);
@@ -16,7 +17,7 @@ export const BlueprintSelect: Component<{
 
   const buildingOptions = createOptions(buildingNames, {
     disable: (value: string) =>
-      selectedValues().includes(value) || selectedBuildings().includes(value),
+      selectedValues().includes(value) || props.allBuildings().includes(value),
   });
 
   return (

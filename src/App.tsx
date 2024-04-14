@@ -102,6 +102,7 @@ export const App: Component = () => {
         <BuildingList selectedBuildingsAccr={allBuildings} />
         <BlueprintSelect
           signal={selectedBlueprintsSignal}
+          allBuildings={allBuildings}
           buildingsSignal={selectedBuildingsSignal}
         />
         <BlueprintList
