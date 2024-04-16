@@ -1,16 +1,16 @@
 [
   { "Product": "Leisure", "Races": { "Beaver": 8, "Human": 8 } },
-  { "Product": "Brawling", "Races": { "Fox": 8, "Lizard": 8 } },
+  { "Product": "Brawling", "Races": { "Foxes": 8, "Lizard": 8 } },
   { "Product": "Religion", "Races": { "Human": 8, "Lizard": 8 } },
   { "Product": "Education", "Races": { "Beaver": 10, "Harpy": 10 } },
-  { "Product": "Luxury", "Races": { "Beaver": 10, "Fox": 10 } },
-  { "Product": "Treatment", "Races": { "Fox": 10, "Harpy": 10 } },
+  { "Product": "Luxury", "Races": { "Beaver": 10, "Foxes": 10 } },
+  { "Product": "Treatment", "Races": { "Foxes": 10, "Harpy": 10 } },
   {
     "Product": "Clothing",
     "Races": { "Beaver": 5, "Human": 5, "Harpy": 5 }
   },
   { "Product": "Jerky", "Races": { "Lizard": 4, "Harpy": 4 } },
-  { "Product": "Skewers", "Races": { "Lizard": 5, "Fox": 5 } },
+  { "Product": "Skewers", "Races": { "Lizard": 5, "Foxes": 5 } },
   {
     "Product": "Biscuits",
     "Races": { "Human": 5, "Beaver": 5, "Harpy": 5 }
@@ -18,6 +18,6 @@
   { "Product": "Pie", "Races": { "Human": 5, "Harpy": 5, "Lizard": 5 } },
   {
     "Product": "Pickled Goods",
-    "Races": { "Fox": 8, "Beaver": 8, "Lizard": 8 }
+    "Races": { "Foxes": 8, "Beaver": 8, "Lizard": 8 }
   }
 ]
