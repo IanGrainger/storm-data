@@ -2369,7 +2369,7 @@
     { "Building": "Clan Hall", "Product": { "Brawling": 1 }, "Ingredient_1": {"Training Gear": 1} },
     { "Building": "Clan Hall", "Product": { "Religion": 1 }, "Ingredient_1": {"Incense": 1} }
   ],
-  "Explorers' Lodge": [
+  "Explorers Lodge": [
     { "Building": "Explorers' Lodge", "Product": { "Brawling": 1 }, "Ingredient_1": {"Training Gear": 1} },
     { "Building": "Explorers' Lodge", "Product": { "Education": 1 }, "Ingredient_1": {"Scrolls": 1} }
   ],
